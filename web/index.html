@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Home Purchase Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Melbourne Home Purchase</p>
+        <h1>Buying Command Center</h1>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#properties">Properties</a>
+        <a href="#compare">Compare</a>
+        <a href="#criteria">Criteria</a>
+        <a href="#reader">Reports</a>
+        <a href="#suburbs">Suburbs</a>
+        <a href="#market">Market</a>
+        <a href="#actions">Actions</a>
+        <a href="#tracker">Tracker</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Property Comparison</p>
+          <h2>Compare shortlisted homes before and during inspections.</h2>
+          <p>
+            Use this as the mobile-friendly view for scores, space, reports, floorplans,
+            photos, and inspection criteria. The comparison matrix remains the source of truth.
+          </p>
+        </div>
+        <div class="decision-panel" aria-label="Key buying constraints">
+          <div>
+            <span>Hard cap</span>
+            <strong>$950k FHBG</strong>
+          </div>
+          <div>
+            <span>Minimum</span>
+            <strong>3 bed / 2 bath</strong>
+          </div>
+          <div>
+            <span>Property type</span>
+            <strong>Freestanding</strong>
+          </div>
+          <div>
+            <span>Preferred feel</span>
+            <strong>Newer, compact land</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-grid" aria-label="Quick navigation">
+        <a class="quick-card" href="#actions">
+          <span>01</span>
+          <strong>Plan the visit</strong>
+          <small>Keep the inspection schedule, actions, and legal watchpoints close.</small>
+        </a>
+        <a class="quick-card" href="#criteria">
+          <span>02</span>
+          <strong>Run the criteria</strong>
+          <small>Hard filters, lived-fit signals, storage, light, and inspection checks.</small>
+        </a>
+        <a class="quick-card" href="#compare">
+          <span>03</span>
+          <strong>Compare properties</strong>
+          <small>AI scores beside in-person corrections, legal risk, and room-size bands.</small>
+        </a>
+        <a class="quick-card" href="#reader">
+          <span>04</span>
+          <strong>Read reports</strong>
+          <small>Open Markdown reports inside the website in a browser-friendly layout.</small>
+        </a>
+        <a class="quick-card" href="#tracker">
+          <span>05</span>
+          <strong>Set up email ingestion</strong>
+          <small>Domain API is blocked; saved-search emails are the practical feed.</small>
+        </a>
+      </section>
+
+      <section id="properties" class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Properties</p>
+          <h2>All compared properties</h2>
+          <p class="section-intro">
+            Jump between properties quickly. Cards below combine score, space, room bands,
+            legal watchpoints, photos, floorplans, AI reports, and in-person notes.
+          </p>
+        </div>
+        <div class="property-nav" id="propertyNav" aria-label="Property navigation"></div>
+      </section>
+
+      <section id="criteria" class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Criteria</p>
+          <h2>Inspection-ready checklist</h2>
+          <p class="section-intro">
+            This is arranged for walking through a property on a phone: first reject obvious
+            mismatches, then check the spaces that matter most for daily life.
+          </p>
+        </div>
+        <div class="criteria-grid" id="criteriaGrid"></div>
+        <div class="criteria-footer">
+          <button class="reader-button" type="button" data-doc="../criteria.md" data-title="Full Criteria Document">
+            Read full criteria document
+          </button>
+        </div>
+      </section>
+
+      <section id="market" class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Market Insights</p>
+          <h2>Pricing and auction discipline</h2>
+        </div>
+        <div class="metric-grid">
+          <article class="metric">
+            <span>Observed comp</span>
+            <strong>$997k</strong>
+            <small>31 St Hellier sold 10.8% above the $900k guide top.</small>
+          </article>
+          <article class="metric">
+            <span>Buick guide</span>
+            <strong>$740k-$790k</strong>
+            <small>Treat the guide top as the floor, not the ceiling.</small>
+          </article>
+          <article class="metric">
+            <span>Expected clearance</span>
+            <strong>$869k-$885k</strong>
+            <small>Using the current 10% auction rule.</small>
+          </article>
+          <article class="metric">
+            <span>Offer strategy</span>
+            <strong>$820k-$840k</strong>
+            <small>Only after Section 32, broker path, and inspection readiness.</small>
+          </article>
+        </div>
+        <p class="source-note">
+          Source: local market notes. Raw finance and action-history files are intentionally not
+          included in the publishable dashboard.
+        </p>
+      </section>
+
+      <section id="suburbs" class="section-band">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">Suburbs</p>
+            <h2>Where to look first</h2>
+          </div>
+          <div class="segmented" role="tablist" aria-label="Suburb priority filter">
+            <button class="active" data-filter="all" type="button">All</button>
+            <button data-filter="newer" type="button">Newer Homes</button>
+            <button data-filter="land" type="button">Land Value</button>
+            <button data-filter="package" type="button">H&L</button>
+          </div>
+        </div>
+        <div class="suburb-grid" id="suburbGrid"></div>
+      </section>
+
+      <section id="compare" class="section-band">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">Compare</p>
+            <h2>Property scorecards</h2>
+          </div>
+          <div class="segmented" role="tablist" aria-label="Comparison sort">
+            <button class="active" data-sort="overall_fit_score" type="button">Overall</button>
+            <button data-sort="study_score" type="button">Study</button>
+            <button data-sort="room_spaciousness_score" type="button">Rooms</button>
+            <button data-sort="kitchen_storage_score" type="button">Kitchen</button>
+            <button data-sort="low_maintenance_score" type="button">Low Maintenance</button>
+          </div>
+        </div>
+
+        <div class="comparison-summary" id="comparisonSummary"></div>
+        <div class="comparison-grid" id="comparisonGrid" aria-live="polite"></div>
+
+        <div class="comparison-table-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Property</th>
+                <th>Price</th>
+                <th>Personal</th>
+                <th>AI</th>
+                <th>Legal</th>
+                <th>Ceiling</th>
+                <th>Land</th>
+                <th>Built Area</th>
+                <th>Master</th>
+                <th>Work Zone</th>
+                <th>Study</th>
+                <th>Rooms</th>
+                <th>Ensuite</th>
+                <th>Kitchen</th>
+                <th>Shared Bath</th>
+                <th>Outdoor</th>
+                <th>Light</th>
+              </tr>
+            </thead>
+            <tbody id="comparisonTableBody"></tbody>
+          </table>
+        </div>
+
+        <p class="source-note">
+          Data source: <a href="../property-comparisons/comparison-matrix.csv">comparison matrix CSV</a>.
+          Space source: <a href="../property-comparisons/space-analysis.md">space analysis</a> and
+          <a href="../property-comparisons/space-matrix.csv">space matrix CSV</a>.
+          Add future properties there and refresh this page.
+        </p>
+      </section>
+
+      <section id="reader" class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Reports</p>
+          <h2>Browser-friendly document reader</h2>
+          <p class="section-intro">
+            Property reports, in-person notes, criteria, and space analysis open here as rendered
+            pages, so you do not have to read raw Markdown in the browser.
+          </p>
+        </div>
+        <div class="reader-actions">
+          <button class="reader-button" type="button" data-doc="../property-comparisons/space-analysis.md" data-title="Space Analysis">
+            Space analysis
+          </button>
+          <button class="reader-button" type="button" data-doc="../criteria.md" data-title="Criteria">
+            Criteria
+          </button>
+          <a class="reader-button link-button" href="../property-comparisons/comparison-matrix.csv">Comparison CSV</a>
+          <a class="reader-button link-button" href="../property-comparisons/space-matrix.csv">Space CSV</a>
+        </div>
+        <article class="markdown-reader" id="markdownReader" tabindex="-1">
+          <div class="reader-empty">
+            Select any report, in-person note, criteria document, or space analysis link.
+          </div>
+        </article>
+      </section>
+
+      <section id="actions" class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Actions</p>
+          <h2>What needs attention now</h2>
+        </div>
+        <div class="two-col">
+          <article class="card">
+            <h3>Before Offer or Auction</h3>
+            <ul class="check-list">
+              <li>Have conveyancer review Section 32 before any serious offer.</li>
+              <li>Commission building/pest after legal review if no red flags appear.</li>
+              <li>Request FHSS determination before signing any contract.</li>
+              <li>Write down the walk-away price before auction day.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Source Data</h3>
+            <p>
+              Property medians, suburb notes, and market notes live outside the published
+              comparison view. Keep private funding and personal cash-position files out of GitHub Pages.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tracker" class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Tracker</p>
+          <h2>Daily listing monitor</h2>
+        </div>
+        <div class="tracker-panel">
+          <div>
+            <h3>Email alert ingestion</h3>
+            <p>
+              Domain API access is blocked, so the practical workflow is saved-search emails from
+              Domain and REA. Once the first real alert lands, build the email parser against that
+              exact format and turn each listing into a comparison row/report.
+            </p>
+            <div class="command-box">
+              <code>cd tracker && python3 tracker.py</code>
+            </div>
+          </div>
+          <div class="alert">
+            <strong>Current workaround</strong>
+            <p>
+              Keep saved-search alerts running. When the first notification arrives, use it as the
+              fixture for <code>tracker/email_tracker.py</code> instead of relying on portal APIs.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Local dashboard built from files in this folder.</span>
+      <a href="../">Back to folder</a>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
