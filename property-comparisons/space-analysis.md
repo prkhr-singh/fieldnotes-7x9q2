@@ -27,6 +27,7 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 | 10 Northbridge Road | 322m2 | ~140-155m2 | 34.2m2 garage | ~43-48% internal / land | Best balanced newer plan: 4 beds plus retreat/study on compact land. |
 | 23 Arbour Grove | 239m2 | ~135-150m2 | ~21m2 oversized single garage | ~56-63% internal / land | Most efficient: small land, surprisingly strong room sizes and three bathrooms. |
 | 44 Waurnvale Drive | 653m2 | 150m2 stated ground floor | 22m2 garage plus separate carport | ~23% internal / land | Biggest land and living zones, but less efficient for your low-maintenance preference. |
+| 1 Cardinal Close | 801m2 | 146m2 reported; ~125-140m2 internal living estimate | 2 car spaces; sheds instead of garage | ~18% reported floor area / land | Land-heavy renovated older home: good living/dining, but no true study and high yard maintenance. |
 
 ## Room-Size Detail
 
@@ -117,6 +118,23 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 
 **Space takeaway:** Waurnvale gives the most raw living-zone space and the most land, but it is less efficient for your priorities because the extra land does not translate into more bedrooms or a newer low-maintenance lifestyle.
 
+### 1 Cardinal Close, Mill Park
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Main bedroom | 3.4 x 3.8 = 12.9m2 | Mid | Has WIR and ensuite, but room itself is not especially spacious. |
+| Bedroom 2 | 3.4 x 2.8 = 9.5m2 | Mid | Usable but not generous; candidate office if needed. |
+| Bedroom 3 | 3.4 x 2.8 = 9.5m2 | Mid | Similar to Bed 2; no oversized secondary room. |
+| Study / work area | None dedicated | Small compromise | One bedroom must become the study, which weakens the 3-bed utility. |
+| Dining / living | 7.3 x 3.6 = 26.3m2 | Large | Strongest internal zone; photos show it as bright and open. |
+| Family / meals | 4.5 x 2.8 = 12.6m2 | Small-mid | Useful second zone beside kitchen, not a large retreat. |
+| Ensuite | Not dimensioned | Compact | Functional, but not a spacious ensuite benchmark. |
+| Main bathroom | Not dimensioned | Mid | Better distribution than ensuite; separate WC nearby. |
+| Kitchen | Not fully dimensioned | Mid-large storage | Pantry, appliance tower and cabinetry; no WIP. |
+| Outdoor | Verandah 2.9 x 8.5m plus 801m2 block | Large land / higher maintenance | Covered verandah is useful, but the lawn/garden burden conflicts with low-maintenance preference. |
+
+**Space takeaway:** Cardinal gives good single-level living and a useful verandah, but most of its size advantage is land rather than internal room scale. It is a value/land benchmark more than a lifestyle-fit benchmark.
+
 ## Ranked By Space Pattern
 
 | Rank | Best for | Property | Why |
@@ -126,6 +144,7 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 | 1 | Room efficiency per land size | 23 Arbour Grove | Smallest land but large master/bedrooms and 3 bathrooms. |
 | 1 | Raw living-zone size | 44 Waurnvale Drive | 25.2m2 lounge plus 21.0m2 family. |
 | 1 | Kitchen storage in inspected comps | 31 St Hellier Street | Strong kitchen, but weaker bedrooms/study. |
+| 1 | Value/land-heavy Mill Park benchmark | 1 Cardinal Close | 801m2 block and renovated presentation, but no dedicated study and high maintenance. |
 
 ## Practical Interpretation
 
@@ -134,3 +153,4 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 - **Arbour is the surprise:** it has only 239m2 land, but the room dimensions are strong because the plan is dense and vertical.
 - **St Hellier is location-led, not space-led.** It has a good lounge/kitchen but is weakest for WFH and room flexibility.
 - **Buick remains the WFH benchmark** because the retreat is unusually large and already validated in person.
+- **Cardinal should not be read as "more spacious" just because it has 801m2 land.** The daily rooms are mid-sized and the extra land mostly adds maintenance.

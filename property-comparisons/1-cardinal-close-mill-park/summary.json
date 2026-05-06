@@ -1,0 +1,85 @@
+{
+  "slug": "1-cardinal-close-mill-park",
+  "address": "1 Cardinal Close, Mill Park VIC 3082",
+  "source_urls": {
+    "agent": "https://www.meprop.com.au/property?property_id=1757899",
+    "statement_of_information": "https://s3-us-west-2.amazonaws.com/eagleagent-orig/uploads%2F1776215096439-6k08fgappzh-558ed0d585352fdc7f08e20f2f2499a5%2FStatement-of-Information-1-CARDINAL-CLOSE-MILL-PARK-VIC-3082-179c966e-ad64-4fa0-a802-e3f1cf34e5fe.pdf",
+    "property_profile": "https://www.property.com.au/vic/mill-park-3082/cardinal-cl/1-pid-3080939/"
+  },
+  "local_assets": {
+    "photos": "assets/photo-01.jpg to assets/photo-22.jpg",
+    "floorplan": "assets/floorplan.jpg",
+    "contact_sheet": "assets/contact-sheet.jpg"
+  },
+  "assessment_layer": "AI pre-visit assessment with saved photos and floorplan; no in-person score yet",
+  "status": "Newly assessed; value/land-heavy Mill Park option, weaker lifestyle fit than Buick",
+  "listing": {
+    "property_type": "Freestanding single-level house",
+    "price_guide_aud": {
+      "low": 695000,
+      "high": 764500
+    },
+    "auction_date": "2026-05-16T11:00:00+10:00",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "car_spaces": 2,
+    "land_m2": 801,
+    "reported_floor_area_m2": 146,
+    "estimated_internal_area_m2": "125-140 internal living estimate from floorplan",
+    "build_age_read": "Older renovated single-level home; photos show presentable cosmetic condition, but inspection/building-pest are important"
+  },
+  "visual_assessment": {
+    "photo_confidence": "high",
+    "floorplan_confidence": "high for dimensions; low for orientation because no north arrow is shown",
+    "newness_read": "Renovated and clean rather than new. Timber floors/windows and single-level plan suggest an older shell.",
+    "study_work_area": "No dedicated study; one secondary bedroom would need to become the office.",
+    "master_storage": "WIR shown, likely compact.",
+    "kitchen_storage": "Pantry plus appliance tower and usable cabinetry; no walk-in pantry.",
+    "laundry_quality": "Dedicated laundry with nearby corridor cupboards; positive for older stock.",
+    "outdoor": "Covered side verandah is useful, but the large 801m2 lawn/garden is maintenance-heavy.",
+    "orientation_read": "Photos look bright, but seasonal room-by-room light cannot be confidently assessed without a compass check."
+  },
+  "location": {
+    "mill_park_primary_school": "0.6km drive estimate",
+    "mill_park_secondary_college": "2.4km drive estimate",
+    "rmit_bundoora_west": "1.8km drive estimate",
+    "university_hill_bundoora": "2.1km drive estimate",
+    "westfield_plenty_valley": "4.4km drive estimate",
+    "south_morang_station": "4.5km drive estimate",
+    "northern_hospital_epping": "6.9km drive estimate",
+    "austin_hospital_heidelberg": "12.1km drive estimate",
+    "melbourne_cbd_flinders_street": "21.3km free-flow OSRM drive estimate"
+  },
+  "market_context": {
+    "statement_of_information_range": "$695,000-$764,500",
+    "soi_median_mill_park_house": "$842,863 for 1 Apr 2025 to 31 Mar 2026",
+    "soi_comparables": [
+      "1 Sussex Court, Mill Park - $740,000 on 15 Nov 2025",
+      "63 Pindari Avenue, Mill Park - $737,000 on 19 Jan 2026",
+      "8 Mosstrooper Court, Mill Park - $760,000 on 2 Mar 2026"
+    ],
+    "previous_sale_read": "Public profile pages show a 2023 sale around $845,000, so current guide should be treated as price-sensitive and verified."
+  },
+  "contract": {
+    "section_32_reviewed": false,
+    "contract_risk_score": 6,
+    "contract_watchpoints": [
+      "No contract or Section 32 reviewed yet.",
+      "Check title, easements, drainage/sewer assets and any covenants.",
+      "Check permit history for verandah, sheds, kitchen, bathroom and other renovations.",
+      "Older renovated shell means building/pest inspection should be mandatory."
+    ]
+  },
+  "scores": {
+    "study_work_area": 5,
+    "room_spaciousness": 6,
+    "ensuite_spaciousness": 5,
+    "kitchen_storage": 7,
+    "shared_bathroom_between_bedrooms": 8,
+    "low_maintenance_outdoor_space": 3,
+    "light_orientation": 6,
+    "overall_fit": 69
+  },
+  "pre_visit_confidence": "high for visuals and dimensions; medium overall because legal pack and in-person light/condition are unknown",
+  "next_action": "Inspect only if the price stays meaningfully below Buick; verify large-yard maintenance burden, study compromise, ensuite size and older-shell condition."
+}

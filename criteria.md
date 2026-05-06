@@ -1,6 +1,6 @@
 # Home Purchase — Property Criteria
 
-**Last updated:** 3 May 2026
+**Last updated:** 5 May 2026
 
 This is the central document for what makes a good property. It has two layers:
 1. **Hard criteria** — non-negotiables and quick filters
@@ -182,7 +182,55 @@ This section accumulates what in-person inspections reveal that listing data and
 
 ---
 
-### Criteria Evolution Log
+### 3.12 Tile Quality as Immediate Photo-Based Rejection Trigger (discovered: 5 May 2026 browsing session)
+
+**What we learned:** Tile quality became a repeated rejection trigger across multiple listings in one session. Homes with dated, dirty-looking, or mismatched tiles were dismissed before any other feature was considered. Poor tiles create an instant "cheap" impression even if the exterior looks acceptable.
+
+**Rubric implication:** When assessing from photos, treat tile quality as an early-pass filter: good tiles (neutral, clean, modern) = proceed; dated or visually dirty tiles = flag as significant negative. A home requiring full re-tiling of kitchen, bathroom, or laundry should have ~$15–25k added to the renovation burden estimate.
+
+**Status:** Add as an explicit photo-screening note. Poor tile quality downgrades `kitchen_storage_score` and `ensuite_score` by 1–2 points.
+
+---
+
+### 3.13 Black / Dark Bathroom Tiles — Explicit Aversion (discovered: 5 May 2026)
+
+**What we learned:** One participant raised a strong objection to black or very dark bathroom tiles based on past experience in Chennai — water splash marks and soap residue are permanently visible on dark surfaces. Dark bathrooms also feel smaller and less pleasant. This is not a mild preference — it's a firm negative.
+
+**Rubric implication:** Any bathroom with predominantly black or dark-coloured tiles scores -2 on `ensuite_score` / `shared_bathroom_score`. Flag explicitly in photo assessment notes. Check in person if photos are ambiguous.
+
+**Status:** Add to inspection checklist: "Tile colour in all bathrooms — note if black/very dark."
+
+---
+
+### 3.14 Renovation Burden as Cost Burden (discovered: 5 May 2026 browsing session)
+
+**What we learned:** Multiple cheaper homes were rejected because they required "quite a lot of work." A lower asking price does not offset renovation costs — it just shifts where the money goes. Homes needing new kitchen, new flooring, and new bathrooms add $40–80k to the effective cost while also adding months of disruption.
+
+**Rubric implication:** When a listing is priced $50–80k below comparable homes, this should trigger a renovation cost estimate, not excitement. If the renovation to bring it to an acceptable standard costs more than the price gap, it is not a bargain. Note estimated renovation burden in `summary.json` as `reno_burden_estimate_aud`.
+
+**Status:** Apply when assessing "affordable" listings. If reno burden closes the price gap, score accordingly.
+
+---
+
+### 3.15 Built-Up Floor Area — 315m² or Less Likely Too Cramped (discovered: 5 May 2026)
+
+**What we learned:** During the browsing session, homes around 315m² total floor area were repeatedly described as feeling "too cramped." This is not a hard filter but a useful screening signal, especially for double-storey homes where the floor plate is divided across two levels.
+
+**Rubric implication:** For double-storey homes, flag total floor area ≤315m² as a soft negative. Below 280m² is a strong negative unless the layout is exceptionally efficient. Target 320m²+ for comfortable feel across both floors.
+
+**Status:** Add floor area check to photo-screening step. Note in `summary.json` as `total_floor_area_sqm`.
+
+---
+
+### 3.16 Outdoor Deck → Sunroom Conversion Preference (reinforced: 5 May 2026)
+
+**What we learned:** One participant explicitly said they would prefer to convert an outdoor deck into a sunroom. This reinforces the prior finding (3.3) about covered vs open outdoor space — but goes further. An open deck is not just suboptimal, it's something they'd want to change. The conversion cost (~$15–25k for a basic enclosure) should be factored in when a property has only an open deck as its outdoor offering.
+
+**Rubric implication:** When `low_maintenance_score` is being set: open deck → score 5–6, AND note "sunroom conversion likely desired, add ~$15k to reno budget." Covered alfresco remains the ideal (score 8–9). Already-enclosed sunroom = 9.
+
+**Status:** Apply to future assessments. Reinforce in inspection checklist.
+
+---
 
 | Date | Inspection | New criterion / change | Action taken |
 |---|---|---|---|
@@ -198,6 +246,11 @@ This section accumulates what in-person inspections reveal that listing data and
 | 3 May 2026 | Geelong/Highton browsing session | Wife prefers mid-century character ("mujhe mid century chahiye"). Cookie-cutter modern estates = emotional negative | Flag estate suburb uniformity as a mild negative in suburb notes |
 | 3 May 2026 | Geelong/Highton browsing session | Homebody identity confirmed — house quality > suburb premium for their lifestyle | Paying for in-house quality (WIR, laundry, study, light) is more justified than paying for suburb connective premium they won't use daily |
 | 3 May 2026 | Lifestyle audit | Bedrooms primarily for sleeping + storage, not activity zones — don't need to be oversized | Master needs adequate size + good windows + storage. Spaciousness threshold only, not premium. |
+| 5 May 2026 | Multi-suburb browsing session | Tile quality = immediate photo rejection trigger. Dated/dirty tiles create "cheap" impression instantly | Downgrade kitchen + bathroom scores 1–2 pts for poor tiles |
+| 5 May 2026 | Multi-suburb browsing session | Black/dark bathroom tiles = explicit aversion. Water splash marks visible permanently (Chennai experience) | -2 on ensuite/bathroom scores. Flag in every photo assessment |
+| 5 May 2026 | Multi-suburb browsing session | Renovation burden = cost burden. Low price + high reno need is not a bargain — it just shifts where the money goes | Add `reno_burden_estimate_aud` to summary.json |
+| 5 May 2026 | Multi-suburb browsing session | 315m² total floor area = likely too cramped for double-storey. Target 320m²+ | Add `total_floor_area_sqm` to summary.json; flag ≤315m² |
+| 5 May 2026 | Multi-suburb browsing session | Open deck → one participant explicitly wants to convert to sunroom. Add ~$15k conversion to reno budget | Score open deck 5–6 AND add reno note. Covered alfresco still ideal (8–9). |
 
 ---
 
