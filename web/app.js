@@ -109,6 +109,55 @@ const sortButtons = document.querySelectorAll("[data-sort]");
 const propertyNav = document.querySelector("#propertyNav");
 const criteriaGrid = document.querySelector("#criteriaGrid");
 const markdownReader = document.querySelector("#markdownReader");
+const workspaceTabs = document.querySelectorAll("[data-view]");
+const workspaceSections = document.querySelectorAll("[data-workspace]");
+
+const sectionWorkspace = Object.fromEntries(
+  [...workspaceSections].map((section) => [section.id, section.dataset.workspace]),
+);
+
+function activateWorkspace(view, options = {}) {
+  const selectedView = view || "today";
+
+  workspaceTabs.forEach((tab) => {
+    const isActive = tab.dataset.view === selectedView;
+    tab.classList.toggle("active", isActive);
+    tab.setAttribute("aria-selected", String(isActive));
+  });
+
+  workspaceSections.forEach((section) => {
+    section.hidden = section.dataset.workspace !== selectedView;
+  });
+
+  if (options.updateHash) {
+    const activeTab = [...workspaceTabs].find((tab) => tab.dataset.view === selectedView);
+    const defaultSection = activeTab?.dataset.defaultSection;
+    if (defaultSection) location.hash = defaultSection;
+  }
+}
+
+function activateWorkspaceForHash() {
+  const sectionId = location.hash.replace("#", "");
+  const view = sectionWorkspace[sectionId];
+  if (view) activateWorkspace(view);
+}
+
+workspaceTabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    activateWorkspace(tab.dataset.view, { updateHash: true });
+  });
+});
+
+document.addEventListener("click", (event) => {
+  const anchor = event.target.closest('a[href^="#"]');
+  if (!anchor) return;
+  const sectionId = anchor.getAttribute("href").slice(1);
+  const view = sectionWorkspace[sectionId];
+  if (view) activateWorkspace(view);
+});
+
+window.addEventListener("hashchange", activateWorkspaceForHash);
+activateWorkspace(sectionWorkspace[location.hash.replace("#", "")] || "today");
 
 const criteriaSections = [
   {

@@ -232,8 +232,42 @@ This section accumulates what in-person inspections reveal that listing data and
 
 ---
 
-| Date | Inspection | New criterion / change | Action taken |
-|---|---|---|---|
+### 3.17 Cosmetic Renovation Tolerance Is Price-Gap Dependent (discovered: planning session, 8 May 2026)
+
+**What we learned:** Tolerance for cosmetic renovation is not a fixed preference — it depends entirely on the price gap between the asking price and a comparable ready-to-live-in home. A maroon-carpet, dated-looking property at $600k is not compelling because the renovation cost (~$30–50k) closes most of the price gap with a better house. The same property at $300k becomes viable because everything can be changed and the gap is real.
+
+**Cost anchors established:**
+- Painting (whole house, professional): ~$1,500
+- Tiling (bathroom re-tile): TBD — needs research before next serious evaluation
+- Full kitchen upgrade: ~$15–25k for mid-range
+- Flooring replacement (full house): ~$8–15k depending on material
+- Open deck → sunroom enclosure: ~$15k
+
+**Rubric implication:** When a "cheap" listing appears, the first step is: what renovation cost brings it to our standard? If reno cost + asking price ≥ comparable ready home, it is not a bargain — it is work for no gain.
+
+**Status:** Add `reno_burden_estimate_aud` to future `summary.json` assessments. Research tiling costs before next evaluation of a renovation-needed property.
+
+---
+
+### 3.18 Decision Log Protocol — Log Every Property Immediately (formalised: 8 May 2026)
+
+**What we learned:** The same properties have been re-evaluated in multiple sessions because there is no record of prior decisions. This wastes time and creates second-guessing. In the age of AI-assisted memory, repeating the same analysis is unnecessary — log it once and close it.
+
+**Protocol:** After every inspection, before moving to the next property, log:
+1. Score 1–10 overall
+2. One thing you loved
+3. One thing you didn't like
+4. Price you'd pay for it
+5. Decision: **active / monitor / reject** + reason (one sentence)
+
+**Rule:** Once a property is logged as rejected with a clear reason, do not revisit it without new information (price reduction, changed circumstances, a material new fact). "We haven't thought about it again" is not a reason to re-evaluate.
+
+**Status:** Apply immediately from 9 May inspections onwards. The in-person.md template in `property-comparisons/` is the right place to record this.
+
+---
+
+| 8 May 2026 | Planning session | Cosmetic renovation tolerance = price-gap dependent. Not a fixed preference — reno cost must be less than the price gap vs a ready home | Add `reno_burden_estimate_aud` to summary.json |
+| 8 May 2026 | Planning session | Decision log protocol formalised — log every property immediately after visiting (score, love, dislike, price, go/watch/reject). Same properties being revisited due to no record | Apply from 9 May inspections; use in-person.md as the log |
 | 2 May 2026 | 1 Buick Crescent | Walk-in robe quality matters more than expected | Note in rubric guidance; add to summary.json storage_type |
 | 2 May 2026 | 1 Buick Crescent | Laundry room quality is a real criterion | Add laundry_quality note to future assessments |
 | 2 May 2026 | Heidelberg Heights auction | Covered alfresco >> open deck (~180 day Melbourne outdoor season) | Updated low_maintenance scoring guidance |
@@ -287,6 +321,44 @@ Condensed from sessions and in-person visits. Use to quickly filter new listings
 ---
 
 ## 5. Inspection Checklist (Use At Every Property Visit)
+
+### Before Each Inspection (packing checklist)
+
+- [ ] Tape measure — measure study nooks (2.0 × 3.0m is borderline for real WFH use)
+- [ ] Phone charged — commit to recording video in every room, not just photos
+- [ ] This criteria checklist open on phone
+
+### Video Protocol
+
+Record video in every room at every property. Not just highlights — every bedroom, living area, kitchen, both bathrooms, laundry, outdoor area, street frontage. Reasons:
+- Memory degrades fast across 3+ properties in a day
+- Video reveals furniture gaps (e.g. where does the dining table go?)
+- Useful for post-visit discussion and for move-in planning
+- Videos are better evidence than photos for room feel and flow
+
+### Neighbourhood Walk Protocol
+
+After every inspection, before driving to the next: park the car and walk 2–3 surrounding streets. Note:
+- Bus stop location and frequency (if no rail nearby)
+- Distance to nearest supermarket
+- Park quality — not just presence, quality matters
+- Street character: what do the homes and front yards look like?
+- Gut read: "Would I want to walk through here on a Sunday morning?"
+
+### Decision Log Protocol
+
+Log immediately after leaving each property, before entering the next:
+
+| Field | What to capture |
+|---|---|
+| Score (1–10) | Overall gut feel |
+| One love | The single thing you'd most miss if you didn't buy it |
+| One concern | The single biggest reason to hesitate |
+| Price you'd pay | Not what you'd offer on day 1, but your honest ceiling |
+| Decision | Active / Monitor / Reject |
+| Reason | One sentence. Enough to close the file without re-opening it. |
+
+**Rule:** Once logged as Reject with a reason, do not revisit without new information (price drop, changed circumstance, material new fact).
 
 ### Structural
 
