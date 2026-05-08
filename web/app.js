@@ -111,6 +111,7 @@ const criteriaGrid = document.querySelector("#criteriaGrid");
 const markdownReader = document.querySelector("#markdownReader");
 const workspaceTabs = document.querySelectorAll("[data-view]");
 const workspaceSections = document.querySelectorAll("[data-workspace]");
+const DATA_VERSION = "2026-05-08-price-lens";
 
 const sectionWorkspace = Object.fromEntries(
   [...workspaceSections].map((section) => [section.id, section.dataset.workspace]),
@@ -598,7 +599,7 @@ async function openDocument(path, title) {
   location.hash = "reader";
 
   try {
-    const response = await fetch(path, { cache: "no-store" });
+    const response = await fetch(cacheBust(path), { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const markdown = await response.text();
     markdownReader.innerHTML = `
@@ -631,6 +632,11 @@ function attachDocumentHandlers(root = document) {
 }
 
 attachDocumentHandlers();
+
+function cacheBust(path) {
+  const separator = String(path).includes("?") ? "&" : "?";
+  return `${path}${separator}v=${DATA_VERSION}`;
+}
 
 function floorplanAssetPath(property) {
   return property.slug === "10-northbridge-road-highton"
@@ -894,8 +900,8 @@ async function loadComparisons() {
 
   try {
     const [comparisonResponse, spaceResponse] = await Promise.all([
-      fetch("../property-comparisons/comparison-matrix.csv", { cache: "no-store" }),
-      fetch("../property-comparisons/space-matrix.csv", { cache: "no-store" }),
+      fetch(cacheBust("../property-comparisons/comparison-matrix.csv"), { cache: "no-store" }),
+      fetch(cacheBust("../property-comparisons/space-matrix.csv"), { cache: "no-store" }),
     ]);
     if (comparisonResponse.ok) comparisons = parseCsv(await comparisonResponse.text());
     if (spaceResponse.ok) spaces = parseCsv(await spaceResponse.text());
