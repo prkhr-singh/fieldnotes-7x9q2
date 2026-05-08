@@ -1,0 +1,80 @@
+{
+  "slug": "44-waurnvale-drive-belmont",
+  "address": "44 Waurnvale Drive, Belmont VIC 3216",
+  "source_urls": {
+    "realestate": "https://www.realestate.com.au/property-house-vic-belmont-150315788",
+    "barry_plant_media": "https://www.barryplant.com.au/for-sale/44-waurnvale-drive-belmont-vic-3216-199145/"
+  },
+  "local_assets": {
+    "photos": "assets/photo-01.jpg to assets/photo-16.jpg",
+    "floorplan": "assets/floorplan.jpg",
+    "contact_sheet": "assets/contact-sheet.jpg"
+  },
+  "assessment_layer": "AI pre-visit assessment with saved photos and floorplan; no in-person score yet",
+  "status": "Shortlisted as value/space benchmark; older large-block mismatch remains",
+  "listing": {
+    "property_type": "Freestanding single-storey house",
+    "price_guide_aud": {
+      "low": 779000,
+      "high": 799000
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "car_spaces": 2,
+    "land_m2": 653,
+    "estimated_internal_area_m2": "150 ground floor plus 22m2 garage per floorplan",
+    "build_age_read": "Older brick veneer shell with January 2026 cosmetic/wet-area renovation"
+  },
+  "visual_assessment": {
+    "photo_confidence": "high",
+    "floorplan_confidence": "high",
+    "newness_read": "Cosmetically refreshed older home, not a new-build",
+    "study_work_area": "Bedroom 3 / office is 3.0 x 4.3m; strong WFH room",
+    "master_storage": "WIR",
+    "kitchen_storage": "Labelled pantry and functional kitchen, but not WIP/new-build scale",
+    "laundry_quality": "Separate laundry plus linen storage",
+    "outdoor": "Large 653m2 block with paving and established planting; still more maintenance than preferred",
+    "orientation_read": "North arrow points right; lounge has strong north/east potential, western bedroom windows need heat checking"
+  },
+  "contract": {
+    "title": "Lot 36 on Plan LP207158B, Volume 09773 Folio 902",
+    "zoning": "General Residential Zone Schedule 4",
+    "overlays": [],
+    "owners_corporation": "Not affected by an owners corporation",
+    "bushfire_prone": false,
+    "vendor_ownership_timeline": "Simon King acquired September 2025, renovated January 2026, listing April/May 2026 — 8-month ownership, classic cosmetic flip pattern",
+    "storey_confirmed": "Single — confirmed in Jim's Building Inspections 137B report",
+    "orientation_confirmed": "North West (from 137B report) — less ideal for winter solar gain",
+    "council_civ": 650000,
+    "council_site_value": 410000,
+    "council_rates_annual": 2074,
+    "listing_vs_civ_premium_pct": "20-23%",
+    "recent_owner_builder_works": [
+      "Renovation of bathroom and ensuite in January 2026",
+      "New floating timber floor, carpet, and painting throughout in January 2026"
+    ],
+    "owner_builder_report": "No safety hazard, defect, incomplete works, or recycled building materials found in the supplied February 2026 report. Undetected defect risk: Low.",
+    "owner_builder_report_caveat": "Visual inspection only — inspector could not verify waterproofing method behind new bathroom/ensuite tiles. Waterproofing failures typically take 2-3 years to manifest. Independent B&P must specifically target this area.",
+    "contract_risk_score": 7,
+    "contract_watchpoints": [
+      "Single storey confirmed — this violates the preferred double-storey floor plan filter. Visit only if treating as a calibration/benchmark property.",
+      "Flip pattern: bought Sept 2025, renovated Jan 2026, sold May 2026. Ask agent directly: why selling after 8 months and 4 months post-renovation?",
+      "137B waterproofing caveat: inspector could not verify what is behind the new bathroom tiles. Commission independent B&P and specifically ask inspector to assess moisture/waterproofing risk in and around the new wet areas.",
+      "Older 1987 shell: brick veneer, Colorbond roof — check hot water system age, switchboard, roof condition, and asbestos risk (pre-1988 materials).",
+      "Large 653m2 land — more maintenance burden than preferred (300-550m2 target).",
+      "No planning overlays, no OC, no covenant — title is the cleanest of the three."
+    ]
+  },
+  "scores": {
+    "study_work_area": 8,
+    "room_spaciousness": 7,
+    "ensuite_spaciousness": 6,
+    "kitchen_storage": 7,
+    "shared_bathroom_between_bedrooms": 8,
+    "low_maintenance_outdoor_space": 5,
+    "light_orientation": 8,
+    "overall_fit": 76
+  },
+  "pre_visit_confidence": "high",
+  "next_action": "Inspect Saturday as a value/space benchmark; decide whether the renovated interior and strong office outweigh the older shell and large-yard maintenance mismatch."
+}

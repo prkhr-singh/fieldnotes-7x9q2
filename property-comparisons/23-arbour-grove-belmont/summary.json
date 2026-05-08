@@ -1,0 +1,67 @@
+{
+  "slug": "23-arbour-grove-belmont",
+  "address": "23 Arbour Grove, Belmont VIC 3216",
+  "source_urls": {
+    "realestate": "https://www.realestate.com.au/property-house-vic-belmont-149793436",
+    "domain": "https://www.domain.com.au/23-arbour-grove-belmont-vic-3216-2020464253",
+    "allhomes_media": "https://www.allhomes.com.au/23-arbour-grove-belmont-vic-3216"
+  },
+  "local_assets": {
+    "photos": "assets/photo-01.jpg to assets/photo-18.jpg",
+    "floorplan": "assets/floorplan.jpg",
+    "contact_sheet": "assets/contact-sheet.jpg",
+    "subdivision_plan": "assets/subdivision-plan.png"
+  },
+  "assessment_layer": "AI pre-visit assessment with saved photos and floorplan; no in-person score yet",
+  "status": "Shortlisted; strong home fit but legal/title structure needs checking",
+  "listing": {
+    "property_type": "Newly constructed house in subdivision context",
+    "price_guide_aud": {
+      "low": 779000,
+      "high": 829000
+    },
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "car_spaces": 1,
+    "land_m2": 239,
+    "estimated_internal_area_m2": "135-150 internal estimate from floorplan; 21m2 oversized single garage",
+    "build_age_read": "New / developer stock; visually clean and contemporary"
+  },
+  "visual_assessment": {
+    "photo_confidence": "high",
+    "floorplan_confidence": "medium-high due small downloaded floorplan image",
+    "newness_read": "Newly constructed presentation with modern bathrooms, kitchen, ducted vents and clean finishes",
+    "study_work_area": "Upstairs lounge 3.6 x 3.7m plus bedroom 4 at 4.3 x 3.0m",
+    "master_storage": "WIR",
+    "kitchen_storage": "Large island and overhead cabinetry; no walk-in pantry visible",
+    "laundry_quality": "Compact laundry; inspect linen/general storage",
+    "outdoor": "Low-maintenance alfresco/courtyard and small grassed areas",
+    "orientation_read": "Positive light in photos, but exact seasonal orientation not reliable from the low-resolution floorplan"
+  },
+  "contract": {
+    "title": "Lot 3 on Plan PS907394U, Volume 12516 Folio 468",
+    "vendor": "Albilly Group Pty Ltd A.C.N. 602 692 400",
+    "owners_corporation": "OC1 covers Common Property 1 + Lots 7–14. OC2 covers Common Property 1 + Lots 8–14. Lot 3 (this property) is NOT listed in either OC. Plan note says lots 'may' be affected — conveyancer must confirm Lot 3 is definitively excluded. If excluded: no levies, no rules, no governance. If included: quarterly fees + OC governance apply.",
+    "telephone_services_not_connected": true,
+    "margin_scheme_checked": true,
+    "contract_risk_score": 4,
+    "contract_watchpoints": [
+      "The subdivision plan shows Common Property No. 1, which may conflict with the hard filter of no shared driveway/body corporate.",
+      "Section 32 pages are scanned/image-only, so full text extraction was not possible without OCR.",
+      "Telephone services are marked as not connected; confirm NBN/telecom availability.",
+      "The vendor is a developer/corporate vendor; inspect build quality and warranty position carefully."
+    ]
+  },
+  "scores": {
+    "study_work_area": 8,
+    "room_spaciousness": 8,
+    "ensuite_spaciousness": 8,
+    "kitchen_storage": 8,
+    "shared_bathroom_between_bedrooms": 9,
+    "low_maintenance_outdoor_space": 9,
+    "light_orientation": 8,
+    "overall_fit": 84
+  },
+  "pre_visit_confidence": "high for layout and visuals; medium overall because legal structure is unresolved",
+  "next_action": "Inspect Saturday only if the common-property question is acceptable; ask agent/conveyancer whether this violates the no-body-corporate rule."
+}

@@ -5,6 +5,7 @@
 **Prepared:** 4 May 2026  
 **Primary listing sources:** Realestate plus Barry Plant agency media  
 **Local assets:** `assets/photo-01.jpg` to `assets/photo-16.jpg`, `assets/floorplan.jpg`, `assets/contact-sheet.jpg`  
+
 ## Quick Verdict
 
 This is not the 4-bedroom home previously recorded in the matrix. The agency listing and downloaded floorplan show **3 bedrooms, 2 bathrooms, and 2 separate car-storage options** on about **653m2**. It is a better property than the earlier placeholder analysis captured: the floorplan proves a real 3.0 x 4.3m bedroom/office, two large living zones, 150m2 of internal area, WIR, ensuite, linen storage, renovated bathrooms, and a workable kitchen.

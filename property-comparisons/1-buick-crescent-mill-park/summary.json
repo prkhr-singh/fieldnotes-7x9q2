@@ -1,0 +1,122 @@
+{
+  "slug": "1-buick-crescent-mill-park",
+  "address": "1 Buick Crescent, Mill Park VIC 3082",
+  "source_urls": {
+    "realestate": "https://www.realestate.com.au/property-house-vic-mill+park-151041872",
+    "agency": "https://www.barryplant.com.au/for-sale/1-buick-crescent-mill-park-vic-3082-203134/"
+  },
+  "status": "Strong contender",
+  "listing": {
+    "property_type": "Freestanding two-storey house",
+    "price_guide_aud": {
+      "low": 740000,
+      "high": 790000
+    },
+    "auction_date": "2026-05-23T11:00:00+10:00",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "car_spaces": 3,
+    "land_m2": 303,
+    "nbn": "FTTP",
+    "agent": "Jay Moxon, Barry Plant Mill Park-South Morang"
+  },
+  "layout": {
+    "estimated_internal_area_m2": "130-145",
+    "estimated_under_roof_area_m2": "190-220 including garage and covered alfresco",
+    "rooms": [
+      {
+        "name": "Master bedroom",
+        "level": "First",
+        "dimensions_m": "4.6 x 3.3",
+        "area_m2": 15.2,
+        "storage": "Walk-in robe",
+        "bathroom_access": "Private ensuite"
+      },
+      {
+        "name": "Retreat / Study",
+        "level": "First",
+        "dimensions_m": "5.1 x 4.8",
+        "area_m2": 24.5,
+        "storage": "Flexible wall storage possible",
+        "bathroom_access": "Near ensuite only via master zone"
+      },
+      {
+        "name": "Bedroom 2",
+        "level": "Ground",
+        "dimensions_m": "3.7 x 2.7",
+        "area_m2": 10.0,
+        "storage": "Built-in robe",
+        "bathroom_access": "Shared central bathroom"
+      },
+      {
+        "name": "Bedroom 3",
+        "level": "Ground",
+        "dimensions_m": "3.0 x 3.4",
+        "area_m2": 10.2,
+        "storage": "Built-in robe",
+        "bathroom_access": "Shared central bathroom"
+      },
+      {
+        "name": "Lounge",
+        "level": "Ground",
+        "dimensions_m": "3.6 x 5.0",
+        "area_m2": 18.0,
+        "storage": "Loose furniture only"
+      },
+      {
+        "name": "Dining / kitchen",
+        "level": "Ground",
+        "dimensions_m": "3.2 x 5.0 dining plus kitchen run",
+        "area_m2": 16.0,
+        "storage": "Tall pantry/cabinet bank, overheads, drawers, under-bench storage"
+      },
+      {
+        "name": "Garage",
+        "level": "Ground",
+        "dimensions_m": "3.4 x 6.0",
+        "area_m2": 20.4,
+        "storage": "Possible wall shelving, tight around large SUV"
+      }
+    ]
+  },
+  "orientation": {
+    "north_arrow_interpretation": "Floorplan compass indicates north is approximately toward the top-right of the floorplan image. Therefore top-facing rooms are roughly north-west, right-facing rooms are roughly north-east, bottom-facing rooms are roughly south-east, and left-facing rooms are roughly south-west.",
+    "best_light_rooms": [
+      "Upstairs retreat/study",
+      "Master bedroom",
+      "Ground lounge/dining",
+      "Covered alfresco"
+    ],
+    "likely_darker_rooms": [
+      "Ground-floor bedroom 2",
+      "Entry and stair zone",
+      "Central bathroom and laundry"
+    ]
+  },
+  "scores": {
+    "study_work_area": 10,
+    "room_spaciousness": 8,
+    "ensuite_spaciousness": 6,
+    "kitchen_storage": 8,
+    "shared_bathroom_between_bedrooms": 8,
+    "low_maintenance_outdoor_space": 9,
+    "light_orientation": 8,
+    "overall_fit": 82
+  },
+  "strengths": [
+    "Large 24.5m2 upstairs retreat/study is excellent for work-from-home.",
+    "Kitchen has meaningful storage, tall pantry-style cabinetry, 900mm oven, dishwasher and usable bench runs.",
+    "Both ground-floor bedrooms use the central bathroom, which is good for children/guests.",
+    "Low-maintenance alfresco suits preference better than a large backyard.",
+    "Renovated finishes appear newer than the original 1995 shell."
+  ],
+  "watchpoints": [
+    "Ensuite is clean and renovated but not especially spacious.",
+    "Ground-floor bedrooms are about 10m2 each, adequate rather than generous.",
+    "Garage width of 3.4m is functional but tight for larger cars.",
+    "Photo analysis suggests strong presentation; confirm joinery, tiles, waterproofing, roof and drainage in person.",
+    "Orientation inference should be verified on-site with phone compass or sun position."
+  ],
+  "next_action": "Inspect; verify orientation, natural light, ensuite size, garage width, building/pest."
+}
+

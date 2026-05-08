@@ -5,6 +5,7 @@
 **Prepared:** 4 May 2026  
 **Primary listing sources:** Realestate/Domain plus Allhomes media mirror  
 **Local assets:** `assets/photo-01.jpg` to `assets/photo-18.jpg`, `assets/floorplan.jpg`, `assets/contact-sheet.jpg`, `assets/subdivision-plan.png`  
+
 ## Quick Verdict
 
 Visually and functionally, this is much stronger than the earlier score suggested. The photos and floorplan confirm a new-build presentation, 4 bedrooms, 3 bathrooms, a real upstairs lounge, large main bedroom with WIR, and a low-maintenance courtyard/alfresco setup. It is probably the best interior lifestyle fit of the three.
@@ -82,7 +83,7 @@ Treat the light score as positive but not yet proven.
 
 ## Contract / Section 32 Notes
 
-Contract text extraction was limited; publishable dashboard excludes raw contract pages.
+The contract PDF is image-only, so extracted text was limited. The notes below capture the buyer-relevant items identified during review.
 
 | Item | Finding | Practical meaning |
 |---|---|---|

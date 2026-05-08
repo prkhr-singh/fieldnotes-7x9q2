@@ -1,0 +1,131 @@
+{
+  "slug": "31-st-hellier-street-heidelberg-heights",
+  "address": "31 St Hellier Street, Heidelberg Heights VIC 3081",
+  "source_urls": {
+    "realestate": "https://www.realestate.com.au/property-house-vic-heidelberg+heights-150808984",
+    "homely": "https://www.homely.com.au/homes/31-st-hellier-street-heidelberg-heights-vic-3/13033538"
+  },
+  "status": "Good contender, location-led rather than layout-led",
+  "listing": {
+    "property_type": "Single-level house",
+    "price_guide_aud": {
+      "low": 840000,
+      "high": 880000
+    },
+    "auction_date": "2026-05-02T12:00:00+10:00",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "car_spaces": 2,
+    "land_m2": 303,
+    "reported_floor_area_m2": 166,
+    "nbn": "FTTP",
+    "agent": "Paul Carbone, Miles Real Estate Ivanhoe & Rosanna"
+  },
+  "layout": {
+    "estimated_internal_area_m2": "105-120 excluding garage",
+    "estimated_under_roof_area_m2": "Property.com.au reports 166m2 floor area; visual floorplan estimate is 140-155m2 excluding open deck, depending on what is counted",
+    "rooms": [
+      {
+        "name": "Main bedroom",
+        "level": "Ground",
+        "dimensions_m": "3.1 x 3.5",
+        "area_m2": 10.9,
+        "storage": "Built-in robe",
+        "bathroom_access": "Private ensuite"
+      },
+      {
+        "name": "Bedroom 2",
+        "level": "Ground",
+        "dimensions_m": "3.6 x 2.7",
+        "area_m2": 9.7,
+        "storage": "Built-in robe",
+        "bathroom_access": "Shared central bathroom"
+      },
+      {
+        "name": "Bedroom 3",
+        "level": "Ground",
+        "dimensions_m": "2.5 x 3.0",
+        "area_m2": 7.5,
+        "storage": "Built-in robe",
+        "bathroom_access": "Shared central bathroom"
+      },
+      {
+        "name": "Lounge",
+        "level": "Ground",
+        "dimensions_m": "3.9 x 5.4",
+        "area_m2": 21.1,
+        "storage": "Loose furniture only",
+        "bathroom_access": "Near entry and main bedroom zone"
+      },
+      {
+        "name": "Dining / living",
+        "level": "Ground",
+        "dimensions_m": "3.2 x 4.1",
+        "area_m2": 13.1,
+        "storage": "Loose furniture only",
+        "bathroom_access": "Near central bathroom"
+      },
+      {
+        "name": "Kitchen",
+        "level": "Ground",
+        "dimensions_m": "Not fully dimensioned",
+        "area_m2": null,
+        "storage": "Three-sided kitchen, extra-large pantry, soft-close drawers, extensive bench space"
+      },
+      {
+        "name": "Garage",
+        "level": "Ground",
+        "dimensions_m": "5.2 x 6.0",
+        "area_m2": 31.2,
+        "storage": "Double garage with internal entry"
+      },
+      {
+        "name": "Deck",
+        "level": "Ground",
+        "dimensions_m": "3.8 x 1.5 plus split-level deck/courtyard",
+        "area_m2": 5.7,
+        "storage": "Outdoor entertaining and firepit area"
+      }
+    ]
+  },
+  "orientation": {
+    "north_arrow_interpretation": "Floorplan and listing text indicate the lounge is north-facing. With north at the top of the floorplan, the rear garden/deck is broadly south-facing, while side windows serve east/west light depending on exact boundary orientation.",
+    "best_light_rooms": [
+      "North-facing lounge",
+      "Dining / living through large side and rear openings",
+      "Garden/deck in sunny periods"
+    ],
+    "likely_darker_rooms": [
+      "Bedroom 3",
+      "Central bathroom / laundry zone",
+      "Kitchen depending on garden shade"
+    ]
+  },
+  "scores": {
+    "study_work_area": 5,
+    "room_spaciousness": 6,
+    "ensuite_spaciousness": 6,
+    "kitchen_storage": 9,
+    "shared_bathroom_between_bedrooms": 8,
+    "low_maintenance_outdoor_space": 7,
+    "light_orientation": 8,
+    "location_fit": 9,
+    "overall_fit": 76
+  },
+  "strengths": [
+    "Excellent Heidelberg Heights location relative to hospitals, Burgundy Street, Heidelberg Station, La Trobe University and inner-north anchors.",
+    "Single-level layout is practical and easy to live in.",
+    "North-facing lounge is a strong light and winter-comfort feature.",
+    "Kitchen storage is excellent for a compact single-level home.",
+    "Bedroom 2 and Bedroom 3 share a central bathroom with a separate toilet.",
+    "Double garage is better than Buick's single garage."
+  ],
+  "watchpoints": [
+    "No dedicated study; a work area would need to use Bedroom 3, lounge, dining area, or garage conversion/storage zone.",
+    "Bedroom 3 is only 7.5m2 and is better as a nursery/small study than a spacious bedroom.",
+    "Main bedroom is modest at 10.9m2; ensuite is clean and contemporary but compact.",
+    "Garden is beautiful but likely higher maintenance than Buick's covered alfresco setup.",
+    "Price guide is materially higher than Buick while giving less internal flexible space."
+  ],
+  "next_action": "Only pursue if location premium matters more than dedicated study and room size; verify auction result/current availability because auction was scheduled for 2 May 2026."
+}

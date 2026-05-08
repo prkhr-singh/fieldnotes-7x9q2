@@ -5,6 +5,7 @@
 **Prepared:** 4 May 2026  
 **Primary listing sources:** Domain plus Real Search media mirror  
 **Local assets:** `assets/photo-01.webp` to `assets/photo-11.webp`, `assets/floorplan.webp`, `assets/contact-sheet.jpg`  
+
 ## Quick Verdict
 
 This is now a higher-confidence shortlist item. The downloaded floorplan proves the features that matter most for your use case: a proper upstairs retreat, a separate 2.0 x 3.0m study nook, WIR to the main bedroom, WIP in the kitchen, linen storage, three 3.0 x 3.0m secondary bedrooms, and a compact courtyard rather than a maintenance-heavy yard.

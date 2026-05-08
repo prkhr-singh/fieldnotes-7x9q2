@@ -648,7 +648,7 @@ main {
 
 .score-pair {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 10px;
   margin: 16px 0;
 }
@@ -691,12 +691,18 @@ main {
   font-weight: 750;
 }
 
-.space-snapshot {
+.space-snapshot,
+.price-snapshot {
   margin: 16px 0;
   border: 1px solid #d6dfd8;
   border-radius: 8px;
   padding: 14px;
   background: #fbfdf9;
+}
+
+.price-snapshot {
+  border-color: #dbc9b1;
+  background: #fffaf2;
 }
 
 .space-heading {
@@ -709,6 +715,11 @@ main {
 
 .space-heading h4 {
   margin: 0;
+  font-size: 16px;
+}
+
+.price-snapshot h4 {
+  margin: 0 0 8px;
   font-size: 16px;
 }
 
@@ -741,7 +752,8 @@ main {
   line-height: 1.25;
 }
 
-.space-snapshot p {
+.space-snapshot p,
+.price-snapshot p {
   margin: 10px 0 0;
   color: var(--muted);
   font-size: 14px;
@@ -1215,7 +1227,7 @@ footer a {
   }
 
   .score-pair {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .reader-heading {

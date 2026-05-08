@@ -1,6 +1,6 @@
 # Space and Room-Size Matrix
 
-**Prepared:** 4 May 2026  
+**Prepared:** 8 May 2026  
 **Scope:** All properties currently listed in `comparison-matrix.csv`  
 **Purpose:** Separate spaciousness from overall desirability. Land size tells you maintenance and land value; internal living area and room dimensions tell you daily comfort.
 
@@ -28,6 +28,13 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 | 23 Arbour Grove | 239m2 | ~135-150m2 | ~21m2 oversized single garage | ~56-63% internal / land | Most efficient: small land, surprisingly strong room sizes and three bathrooms. |
 | 44 Waurnvale Drive | 653m2 | 150m2 stated ground floor | 22m2 garage plus separate carport | ~23% internal / land | Biggest land and living zones, but less efficient for your low-maintenance preference. |
 | 1 Cardinal Close | 801m2 | 146m2 reported; ~125-140m2 internal living estimate | 2 car spaces; sheds instead of garage | ~18% reported floor area / land | Land-heavy renovated older home: good living/dining, but no true study and high yard maintenance. |
+| 11 Archer Place | 697m2 | ~155-175m2 | ~55m2 double garage | ~22-25% internal / land | Strong internal layout with true study and two living zones; maintenance and price are the issues. |
+| 2 Hartley Court | ~660m2 | ~165-185m2 | ~32m2 double garage | ~25-28% internal / land | Best new-batch layout: four beds, retreat, two living zones and covered alfresco. |
+| 18 Streeton Circuit | 603m2 | ~125-140m2 | Carport/driveway | ~21-23% internal / land | Functional 4-bed plan, but room sizes are mixed and the yard is larger than ideal. |
+| 5 Berala Place | 575m2 | ~145-160m2 | Carport/garage not treated as internal | ~25-28% internal / land | Sold comp with dedicated study and good living spread; bedrooms are not generous. |
+| 2A Macadam Street | 447m2 | ~95-115m2 | Off-street parking | ~21-26% internal / land | Charming cottage scale, but poor family-home fit and only one main bathroom. |
+| 18 Westwood Drive | 241m2 | ~150-170m2 | ~32m2 double garage | ~62-71% internal / land | Strong built-area density and low maintenance, but townhouse/type risk is a hard-filter issue. |
+| 20 Northampton Crescent | ~550m2 placeholder | Unknown | Unknown | Unknown | Insufficient reliable floorplan/photos; do not use for spatial comparison yet. |
 
 ## Room-Size Detail
 
@@ -135,6 +142,68 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 
 **Space takeaway:** Cardinal gives good single-level living and a useful verandah, but most of its size advantage is land rather than internal room scale. It is a value/land benchmark more than a lifestyle-fit benchmark.
 
+### 11 Archer Place, Mill Park
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Study | 3.6 x 2.9 = 10.4m2 | Large | True daily WFH room. |
+| Living | 6.8 x 4.1 = 27.9m2 | Large | Strong formal living zone. |
+| Family / rumpus | 6.6 x 3.6 = 23.8m2 | Large | Excellent second living. |
+| Dining | 2.8 x 4.4 = 12.3m2 | Mid | Works beside older kitchen. |
+| Kitchen | Not fully dimensioned | Mid-large | Functional, but visually older timber cabinetry. |
+| Outdoor | Covered pergola plus large lawn | Large / higher maintenance | Useful covered zone, but the 697m2 block is not low upkeep. |
+
+**Space takeaway:** Archer is spacious where you care: study and living zones. The tradeoff is price and a larger older block.
+
+### 2 Hartley Court, Mill Park
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Master | 3.7 x 3.9 = 14.4m2 | Large | WIR and ensuite. |
+| Secondary bedrooms | Approx. 10.2-11.9m2 | Mid-large | Better than most older Mill Park options. |
+| Retreat | 3.6 x 3.4 = 12.2m2 | Large study / mid living | Strong WFH or kids/guest retreat. |
+| Family | 6.3 x 3.9 = 24.6m2 | Large | Main daily living zone. |
+| Lounge | 3.7 x 4.3 = 15.9m2 | Mid-large | Useful second living. |
+| Outdoor | Covered alfresco plus lawn | Large / medium maintenance | More useful than open lawn alone. |
+
+**Space takeaway:** Hartley is the strongest new-batch daily-life layout if price and auction dynamics behave.
+
+### 18 Streeton Circuit, Mill Park
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Master | 3.5 x 3.6 = 12.6m2 | Mid | WIR/ensuite but not spacious. |
+| Bedroom 2 | 2.7 x 4.1 = 11.1m2 | Mid | Long/narrow but usable. |
+| Bedroom 3 | 3.0 x 3.0 = 9.0m2 | Mid | Standard square bedroom. |
+| Bedroom 4 / office | 2.6 x 2.7 = 7.0m2 | Small | Better as office than main bedroom. |
+| Family | 3.6 x 6.2 = 22.3m2 | Large | Strongest internal zone. |
+| Lounge | 5.1 x 3.5 = 17.9m2 | Mid-large | Useful second living. |
+
+**Space takeaway:** Streeton is functional and cheaper, but not especially spacious in the rooms that matter most.
+
+### 5 Berala Place, Mill Park
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Study | 2.8 x 2.7 = 7.6m2 | Mid | Useful dedicated study. |
+| Lounge/dining | 7.9 x 4.1 = 32.4m2 | Large | Strong open living/dining zone. |
+| Living | 5.3 x 2.9 = 15.4m2 | Mid | Useful second zone. |
+| Bedrooms | Approx. 7.8-9.9m2 | Small-to-mid | Weaker bedroom spaciousness. |
+
+**Space takeaway:** Berala is valuable as a sold comp because it delivered a study and 4-bed layout at $820k, but room sizes were not premium.
+
+### 2A Macadam Street, Daylesford
+
+**Space takeaway:** Cottage presentation is strong, but the functional brief is wrong: essentially 2 bedrooms plus office/studio and only one main bathroom. It should not compete with Mill Park family-home options.
+
+### 18 Westwood Drive, Mill Park
+
+**Space takeaway:** Westwood has excellent built-area density on compact land and strong bedrooms, but the townhouse-like title/type risk may override the low-maintenance space advantage.
+
+### 20 Northampton Crescent, Caroline Springs
+
+**Space takeaway:** No reliable current floorplan or photos have been captured. Keep as a placeholder only.
+
 ## Ranked By Space Pattern
 
 | Rank | Best for | Property | Why |
@@ -145,6 +214,10 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 | 1 | Raw living-zone size | 44 Waurnvale Drive | 25.2m2 lounge plus 21.0m2 family. |
 | 1 | Kitchen storage in inspected comps | 31 St Hellier Street | Strong kitchen, but weaker bedrooms/study. |
 | 1 | Value/land-heavy Mill Park benchmark | 1 Cardinal Close | 801m2 block and renovated presentation, but no dedicated study and high maintenance. |
+| 1 | Best new-batch layout if price works | 2 Hartley Court | 4 beds, retreat, two living zones and covered alfresco. |
+| 1 | Strong study/living but expensive | 11 Archer Place | Real study plus two large living zones; price/land burden are the blockers. |
+| 1 | Price-discipline comp | 5 Berala Place | Sold at $820k with study; useful for calibrating older Mill Park stock. |
+| 1 | Low-maintenance density | 18 Westwood Drive | Strong internal area on 241m2, but likely fails type/title preference. |
 
 ## Practical Interpretation
 

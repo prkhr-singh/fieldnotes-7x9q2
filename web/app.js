@@ -403,9 +403,17 @@ function formatLegalScore(value) {
 }
 
 function formatPriceGuide(value) {
+  if (/sold/i.test(String(value || ""))) return String(value).replace(/^sold-?/i, "Sold ");
   const [low, high] = String(value || "").split("-").map(numberValue);
   if (!low && !high) return "No guide";
   return high ? `${formatMoney(low)}-${formatMoney(high)}` : formatMoney(low);
+}
+
+function formatRange(value) {
+  const text = String(value || "").trim();
+  if (!text || text.toLowerCase() === "unknown") return "Unknown";
+  if (text.includes("-")) return formatPriceGuide(text);
+  return formatMoney(text) || text;
 }
 
 function formatDate(value) {
@@ -641,8 +649,18 @@ function renderComparisonSummary(properties) {
   );
   const bestPersonal = [...properties].sort((a, b) => personalScore(b) - personalScore(a))[0];
   const marketComp = properties.find((property) =>
+    property.slug === "5-berala-place-mill-park",
+  ) || properties.find((property) =>
     String(property.status || "").toLowerCase().includes("sold"),
   );
+  const bestValue = [...properties]
+    .filter((property) => !String(property.status || "").toLowerCase().includes("sold"))
+    .sort(
+      (a, b) =>
+        numberValue(b.price_risk_score) * 10 +
+        personalScore(b) -
+        (numberValue(a.price_risk_score) * 10 + personalScore(a)),
+    )[0];
   const ceilingProperty = primary || bestPersonal;
 
   comparisonSummary.innerHTML = `
@@ -662,8 +680,13 @@ function renderComparisonSummary(properties) {
       <small>${ceilingProperty.address}</small>
     </article>
     <article>
-      <span>Market comp</span>
-      <strong>$997k</strong>
+      <span>Best value fit</span>
+      <strong>${bestValue ? personalScore(bestValue) : "N/A"}/100</strong>
+      <small>${bestValue ? bestValue.address : "No active value candidate"}</small>
+    </article>
+    <article>
+      <span>Latest direct comp</span>
+      <strong>${marketComp ? formatRange(marketComp.likely_transaction_range) : "$997k"}</strong>
       <small>${marketComp ? marketComp.address : "No sold comp in the matrix"}</small>
     </article>
   `;
@@ -752,9 +775,23 @@ function renderComparisons(properties, sortKey = "overall_fit_score") {
                 <span>Ceiling</span>
                 <strong>${formatMoney(property.in_person_price_ceiling)}</strong>
               </div>
+              <div>
+                <span>Price risk</span>
+                <strong>${property.price_risk_score ? `${escapeHtml(property.price_risk_score)}/10` : "N/A"}</strong>
+              </div>
+              <div>
+                <span>Fair value</span>
+                <strong>${formatRange(property.fair_value_estimate)}</strong>
+              </div>
             </div>
             <div class="property-facts">
               <span>${formatPriceGuide(property.price_guide)}</span>
+              ${property.sale_method ? `<span>${escapeHtml(property.sale_method)}</span>` : ""}
+              ${
+                property.likely_transaction_range
+                  ? `<span>Likely ${escapeHtml(formatRange(property.likely_transaction_range))}</span>`
+                  : ""
+              }
               <span>${property.bedrooms} bed</span>
               <span>${property.bathrooms} bath</span>
               <span>${property.car_spaces} car</span>
@@ -788,6 +825,15 @@ function renderComparisons(properties, sortKey = "overall_fit_score") {
                   : `<p>No space-matrix row yet. Add this property to space-matrix.csv for room bands.</p>`
               }
             </div>
+            ${
+              property.price_lens || property.affordability_read
+                ? `<div class="price-snapshot">
+                    <h4>Price read</h4>
+                    ${property.price_lens ? `<p>${escapeHtml(property.price_lens)}</p>` : ""}
+                    ${property.affordability_read ? `<p>${escapeHtml(property.affordability_read)}</p>` : ""}
+                  </div>`
+                : ""
+            }
             <div class="score-list">
               ${scoreBar("Study/work", property.study_score)}
               ${scoreBar("Room size", property.room_spaciousness_score)}
@@ -818,6 +864,9 @@ function renderComparisons(properties, sortKey = "overall_fit_score") {
             <small class="table-status">${escapeHtml(property.status)}</small>
           </td>
           <td>${formatPriceGuide(property.price_guide)}</td>
+          <td>${escapeHtml(formatRange(property.likely_transaction_range || property.fair_value_estimate))}</td>
+          <td>${escapeHtml(property.sale_method || "N/A")}</td>
+          <td>${property.price_risk_score ? `${escapeHtml(property.price_risk_score)}/10` : "N/A"}</td>
           <td><strong>${personalScore(property)}</strong></td>
           <td>${property.overall_fit_score}</td>
           <td>${formatLegalScore(property.legal_risk_score)}</td>

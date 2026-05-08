@@ -1,0 +1,80 @@
+{
+  "slug": "10-northbridge-road-highton",
+  "address": "10 Northbridge Road, Highton VIC 3216",
+  "source_urls": {
+    "domain": "https://www.domain.com.au/10-northbridge-road-highton-vic-3216-2020803223",
+    "real_search_media": "https://realsearch.com.au/house-10-northbridge-road-highton-vic-3216"
+  },
+  "local_assets": {
+    "photos": "assets/photo-01.webp to assets/photo-11.webp",
+    "dashboard_image": "assets/photo-01.jpg",
+    "floorplan": "assets/floorplan.webp",
+    "contact_sheet": "assets/contact-sheet.jpg"
+  },
+  "assessment_layer": "AI pre-visit assessment with saved photos and floorplan; no in-person score yet",
+  "status": "Shortlisted for Saturday visit",
+  "listing": {
+    "property_type": "Freestanding house",
+    "price_guide_aud": {
+      "low": 775000,
+      "high": 795000
+    },
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "car_spaces": 2,
+    "land_m2": 322,
+    "estimated_internal_area_m2": "140-155 internal estimate from floorplan; 34m2 garage",
+    "build_age_read": "Modern/newer-feeling compact double-storey home; photos show clean contemporary finishes"
+  },
+  "visual_assessment": {
+    "photo_confidence": "high",
+    "floorplan_confidence": "high",
+    "newness_read": "Newer/contemporary presentation, not an older renovated shell",
+    "study_work_area": "3.7 x 2.9m retreat plus 2.0 x 3.0m study nook",
+    "master_storage": "WIR",
+    "kitchen_storage": "WIP plus island and visible cabinetry",
+    "laundry_quality": "Separate laundry plus linen cupboard",
+    "outdoor": "2.8 x 4.6m courtyard; low maintenance but coverage unverified",
+    "orientation_read": "North arrow indicates kitchen/living glazing faces mostly north, with some western exposure"
+  },
+  "contract": {
+    "title": "Lot 3 on Plan PS713558, Volume 11456 Folio 250",
+    "zoning": "General Residential Zone Schedule 1",
+    "overlays": [
+      "Road Closure Overlay",
+      "Design and Development Overlay Schedule 13",
+      "Design and Development Overlay Schedule 14",
+      "Development Plan Overlay Schedule 6"
+    ],
+    "owners_corporation": "Not applicable in Section 32",
+    "bushfire_prone": false,
+    "registered_covenant": "Covenant AJ739795K registered 20/06/2012 — expires 2028",
+    "covenant_content": "Single dwelling only (no dual occupancy); external walls ≥75% brick/brick-veneer/timber/cement/glass; no second-hand materials visible from street. Imposed by Geelong Land Group when subdividing PS638299L in 2012. Binds all lots in that subdivision. Expires 2028.",
+    "vendor_ownership_years": 12,
+    "sale_type": "Auction — no cooling-off, no finance/B&P condition at auction",
+    "breach_interest_rate": "4% (elevated from standard 2% via Special Condition 2d)",
+    "sc3b_address_note": "Vendor discloses some Section 32 certificates reference wrong street address (administrative error by certificate supplier). Conveyancer must verify this is clerical only.",
+    "water_asset": "E-1 and E-2 pipeline easements in favour of Barwon Water Corporation (standard utility easements)",
+    "contract_risk_score": 6,
+    "contract_watchpoints": [
+      "Covenant expires 2028 — content is mild (materials quality, single dwelling) and won't affect day-to-day use. Not a real risk.",
+      "DDO13/DDO14 overlays mean future exterior renovations/extensions may need a planning permit. Verify with conveyancer what triggers the permit requirement.",
+      "DPO6 and Road Closure Overlay — confirm Road Closure Overlay doesn't affect access (Wembley Lane). Likely fine given frontage is on Northbridge Road.",
+      "Confirm sewer-main easement location won't restrict any planned future deck or extension.",
+      "SC3b wrong address certificates — conveyancer must verify this is clerical and doesn't affect the actual land boundary.",
+      "Auction: must have pre-approval and independent B&P inspection done before auction day — no conditions on day."
+    ]
+  },
+  "scores": {
+    "study_work_area": 9,
+    "room_spaciousness": 8,
+    "ensuite_spaciousness": 7,
+    "kitchen_storage": 8,
+    "shared_bathroom_between_bedrooms": 8,
+    "low_maintenance_outdoor_space": 9,
+    "light_orientation": 9,
+    "overall_fit": 86
+  },
+  "pre_visit_confidence": "high",
+  "next_action": "Inspect Saturday; verify study nook usability, courtyard coverage, room feel, summer heat control, and covenant/overlay implications with conveyancer."
+}
