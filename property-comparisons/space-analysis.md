@@ -35,6 +35,8 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 | 2A Macadam Street | 447m2 | ~95-115m2 | Off-street parking | ~21-26% internal / land | Charming cottage scale, but poor family-home fit and only one main bathroom. |
 | 18 Westwood Drive | 241m2 | ~150-170m2 | ~32m2 double garage | ~62-71% internal / land | Strong built-area density and low maintenance, but townhouse/type risk is a hard-filter issue. |
 | 20 Northampton Crescent | ~550m2 placeholder | Unknown | Unknown | Unknown | Insufficient reliable floorplan/photos; do not use for spatial comparison yet. |
+| 11 Northbridge Road | 356m2 | 115m2 stated ground floor | 35m2 garage | 32% internal / land; 42% including garage | Polished compact 3-bed home with excellent light/views, but no study or fourth bedroom. |
+| 77 Prince Of Wales Avenue | 560m2 | ~140-155m2 | Covered carport/driveway | ~25-28% internal estimate; reported building area may include covered areas | Strong value pattern: real office, WIP and large living, but older shell and real yard upkeep. |
 
 ## Room-Size Detail
 
@@ -204,6 +206,43 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 
 **Space takeaway:** No reliable current floorplan or photos have been captured. Keep as a placeholder only.
 
+### 11 Northbridge Road, Highton
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Master bedroom | 3.3 x 3.0 = 9.9m2 | Small-mid | Has BIR and ensuite, but the room itself is compact for a main bedroom. |
+| Bedroom 2 | 2.9 x 3.0 = 8.7m2 | Small-to-mid | Usable secondary bedroom, not spacious. |
+| Bedroom 3 | 3.2 x 2.9 = 9.3m2 | Mid | Best candidate for WFH, but then the home functions as 2 bedrooms plus office. |
+| Study / work area | None dedicated | Small compromise | Biggest mismatch against the criteria. |
+| Lounge | 3.6 x 4.0 = 14.4m2 | Mid | Useful second sitting/TV zone. |
+| Family | 3.6 x 4.3 = 15.5m2 | Mid | Everyday living zone connected to kitchen. |
+| Dining | 3.6 x 3.3 = 11.9m2 | Mid | Good compact dining footprint. |
+| Ensuite | Not dimensioned | Compact | Modern, but not spacious. |
+| Main bathroom | Not dimensioned | Mid | Bath, shower, separate WC and linen nearby. |
+| Kitchen | Not fully dimensioned | Large storage for footprint | Long kitchen run, island, pantry and appliance wall; no WIP. |
+| Outdoor | Deck plus compact garden | Low-maintenance | Strong outdoor fit because the amenity is deck/view rather than lawn. |
+
+**Space takeaway:** 11 Northbridge has the best polish/light among the compact Highton options, but it is not a spacious-room property. The lack of a study is the core issue.
+
+### 77 Prince Of Wales Avenue, Mill Park
+
+| Room / zone | Size | Band | Notes |
+|---|---:|---|---|
+| Main bedroom | 3.6 x 3.2 = 11.5m2 | Mid | WIR and ensuite make it functional, but the room is not large. |
+| WIR | 1.5 x 2.5 = 3.8m2 | Mid | Useful dedicated robe storage. |
+| Ensuite | 1.8 x 2.5 = 4.5m2 | Compact-mid | Better than a tiny ensuite, still not spacious. |
+| Bedroom 2 | 3.0 x 3.0 = 9.0m2 | Mid | Standard square bedroom with BIR. |
+| Bedroom 3 | 3.0 x 3.0 = 9.0m2 | Mid | Standard square bedroom with BIR. |
+| Office | 2.9 x 3.0 = 8.7m2 | Mid | Proper daily WFH room without sacrificing bedrooms. |
+| Living | 4.0 x 6.4 = 25.6m2 | Large | Strongest internal zone; materially larger than many 3-bed homes. |
+| Dining | 3.5 x 3.3 = 11.6m2 | Mid | Good separate dining beside kitchen. |
+| Kitchen | 4.3 x 3.1 = 13.3m2 | Large storage | WIP, U-shaped bench and good window light. |
+| Main bathroom | 2.6 x 1.8 = 4.7m2 plus separate WC | Mid | Practical shared bathroom setup near bedrooms. |
+| Laundry | 2.6 x 1.8 = 4.7m2 | Mid | Proper laundry, useful for household storage. |
+| Outdoor | 560m2 block with carport, lawn and shed | Medium maintenance | More manageable than very large blocks, but not a compact alfresco-only setup. |
+
+**Space takeaway:** 77 Prince Of Wales is one of the better 3-bed Mill Park layouts because it has a real office and WIP. The space tradeoff is that the extra land comes with older-home yard/carport maintenance.
+
 ## Ranked By Space Pattern
 
 | Rank | Best for | Property | Why |
@@ -218,6 +257,8 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 | 1 | Strong study/living but expensive | 11 Archer Place | Real study plus two large living zones; price/land burden are the blockers. |
 | 1 | Price-discipline comp | 5 Berala Place | Sold at $820k with study; useful for calibrating older Mill Park stock. |
 | 1 | Low-maintenance density | 18 Westwood Drive | Strong internal area on 241m2, but likely fails type/title preference. |
+| 1 | Polished compact 3-bed design | 11 Northbridge Road | Excellent presentation/light/views, but no study or fourth bedroom. |
+| 1 | Best 3-bed value layout with office | 77 Prince Of Wales Avenue | Real office, WIP and large living room in a lower guide band. |
 
 ## Practical Interpretation
 
@@ -227,3 +268,5 @@ Bathrooms, kitchens, laundries and outdoor spaces are classified qualitatively b
 - **St Hellier is location-led, not space-led.** It has a good lounge/kitchen but is weakest for WFH and room flexibility.
 - **Buick remains the WFH benchmark** because the retreat is unusually large and already validated in person.
 - **Cardinal should not be read as "more spacious" just because it has 801m2 land.** The daily rooms are mid-sized and the extra land mostly adds maintenance.
+- **11 Northbridge is polished rather than spacious.** It is visually strong and low-maintenance, but a compact 3-bed layout is a real limitation.
+- **77 Prince Of Wales deserves attention if price stays disciplined.** The office and WIP are unusually useful in a 3-bed Mill Park home, but the older shell/carport/yard tradeoff remains.

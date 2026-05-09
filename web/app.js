@@ -111,7 +111,7 @@ const criteriaGrid = document.querySelector("#criteriaGrid");
 const markdownReader = document.querySelector("#markdownReader");
 const workspaceTabs = document.querySelectorAll("[data-view]");
 const workspaceSections = document.querySelectorAll("[data-workspace]");
-const DATA_VERSION = "2026-05-08-price-lens";
+const DATA_VERSION = "2026-05-09-two-props";
 
 const sectionWorkspace = Object.fromEntries(
   [...workspaceSections].map((section) => [section.id, section.dataset.workspace]),
