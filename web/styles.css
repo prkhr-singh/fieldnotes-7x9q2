@@ -551,6 +551,24 @@ main {
   background: #e8eee9;
 }
 
+.property-image-wrap.image-missing {
+  background:
+    linear-gradient(135deg, rgba(38, 70, 83, 0.08), rgba(42, 157, 143, 0.16)),
+    #f2f6f4;
+}
+
+.property-image-wrap.image-missing::after {
+  content: "Image not republished";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #48625b;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
 .property-image-wrap img {
   width: 100%;
   height: 100%;

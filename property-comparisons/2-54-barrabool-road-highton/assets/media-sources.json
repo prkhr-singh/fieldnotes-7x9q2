@@ -1,0 +1,12 @@
+[
+  {
+    "type": "photo",
+    "file": "photo-01.webp",
+    "source": "https://cdn.realsearch.com.au/realsearch/415-1-20112024054546.webp"
+  },
+  {
+    "type": "contact_sheet",
+    "file": "contact-sheet.jpg",
+    "source": "generated from downloaded photos"
+  }
+]

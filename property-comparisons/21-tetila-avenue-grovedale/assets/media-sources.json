@@ -1,0 +1,12 @@
+[
+  {
+    "type": "photo",
+    "file": "photo-01.jpg",
+    "source": "https://i2.au.reastatic.net/800x600/d1c5246f357dfd504b53834d6e74d254e297472db6aed5b063e6e4ccae6b0359/image.jpg"
+  },
+  {
+    "type": "contact_sheet",
+    "file": "contact-sheet.jpg",
+    "source": "generated from downloaded photos"
+  }
+]

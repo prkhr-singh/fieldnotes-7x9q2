@@ -1,20 +1,21 @@
 # Property Comparison Record: 77 Prince Of Wales Avenue, Mill Park VIC 3082
 
-**Status:** Newly assessed Mill Park value candidate  
-**Assessment layer:** AI pre-visit assessment with saved photos and floorplan; no in-person score yet  
-**Prepared:** 9 May 2026  
-**Primary listing sources:** Realestate listing, Domain/property profile, Real Search media mirror, saved listing photos and floorplan  
-**Local assets:** `assets/photo-01.jpg` to `assets/photo-15.jpg`, `assets/floorplan.jpg`, `assets/contact-sheet.jpg`
+**Status:** WATCH - viable Mill Park value candidate, but post-auction asking has reduced the bargain case  
+**Assessment layer:** AI pre-visit assessment with saved photos/floorplan and contract/Section 32 review; no in-person score yet  
+**Prepared:** 9 May 2026; refreshed 12 May 2026; contract reviewed 12 May 2026  
+**Primary listing sources:** Realestate listing, Love agency brochure, Domain/property profile, Real Search media mirror, contract of sale/Section 32, saved listing photos and floorplan  
+**Observed source update:** Love brochure observed 12 May 2026 shows asking $810,000 and a Thursday 14 May inspection. Brochure URL: `https://www.lovere.com.au/brochure-8674987.pdf`. Some mirrors still show earlier $760,000-$800,000 evidence, so confirm the live agent guide before acting.  
+**Local assets:** `assets/photo-01.jpg` to `assets/photo-15.jpg`, `assets/floorplan.jpg`, `assets/contact-sheet.jpg`, `assets/contract of sale.pdf`
 
 ## Quick Verdict
 
-This is a stronger functional match than many older 3-bedroom Mill Park homes because it has a real office, WIP, ensuite, main bathroom plus separate WC, big living room, and covered carport/outdoor utility. It is not as polished or low-maintenance as Buick or 11 Northbridge, but it has a practical single-level layout and a price guide that gives useful budget headroom.
+This remains a stronger functional match than many older 3-bedroom Mill Park homes because it has a real office, WIP, ensuite, main bathroom plus separate WC, big living room, and covered carport/outdoor utility. It is not as polished or low-maintenance as Buick or 11 Northbridge, but it has a practical single-level layout.
 
-The main caution is that it is an older brick home with a larger 560m2 block, carport rather than garage, and photos that look cosmetically refreshed/staged rather than fully renovated. It is a good candidate if the auction does not run hot. It should be treated as a price-disciplined option, not a property to chase.
+The main caution is no longer just auction risk. Post-auction evidence now points to an asking level around $810k, which means the property has moved from "clear value if bought under $800k" to "reasonable only if inspection confirms the layout/condition are materially better than the older-shell risk suggests." It should be treated as a negotiation candidate, not a property to chase.
 
-**AI fit score:** 79 / 100  
-**Pre-visit confidence:** High for photos/floorplan; medium overall until auction result, Section 32 and inspection are known  
-**Price ceiling:** Around $810k for your use case; above that, newer/lower-maintenance and 4-bed options become more compelling.
+**AI fit score:** 78 / 100  
+**Pre-visit confidence:** High for photos/floorplan; medium-high overall after contract review, pending conveyancer and building/pest  
+**Price ceiling:** Around $805k-$810k for your use case; above that, newer/lower-maintenance and 4-bed options become more compelling.
 
 ## Listing Snapshot
 
@@ -25,8 +26,10 @@ The main caution is that it is an older brick home with a larger 560m2 block, ca
 | Beds / baths / cars | 3 / 2 / 2 |
 | Land | 560m2 |
 | Floor area | Internal living estimated around 140-155m2 from floorplan; property profile building-area signals may include covered/carport areas |
-| Price guide | $695,000-$764,500 |
-| Sale method | Auction campaign; auction listed for Saturday 9 May 2026 at 10:30am, verify result before action |
+| Price guide | Earlier auction guide $695,000-$764,500; later mirrors $760,000-$800,000; Love brochure asking $810,000 |
+| Sale method | Auction campaign appears to have moved into post-auction asking-price campaign; verify live status |
+| Title | Lot 354 on Plan of Subdivision 216151Q, Volume 09882 Folio 810 |
+| Planning | Whittlesea GRZ5 with DCPO3 |
 | Fit pattern | Older single-level Mill Park house with true office, WIP and manageable but real yard |
 
 ## Criteria Fit
@@ -110,27 +113,68 @@ Street-specific note: Prince of Wales Avenue is a through suburban road rather t
 
 ## Property History and Market Context
 
-Public profiles show earlier sales at $218k in May 2002, $51.9k in 1989 and $41.9k in 1988. Domain's automated estimate shows a high-confidence range with mid estimate around $820k, while the current guide is $695k-$764.5k. Realestate's suburb price-insight snapshot for 3-bedroom Mill Park houses shows a median around $800k for the April 2025 to March 2026 window.
+Public profiles show earlier sales at $218k in May 2002, $51.9k in 1989 and $41.9k in 1988. Domain's automated estimate previously showed a high-confidence range with mid estimate around $820k. The original auction guide was below that, but the refreshed agency brochure now shows asking $810k, which is much closer to the automated estimate and recent 3-bedroom Mill Park median evidence.
 
 Interpretation:
 
-- The guide is below Domain's mid automated estimate, so auction competition could lift the result into the high-$700s or low-$800s.
+- The current asking level is no longer a clear discount to the automated estimate.
 - The property has a better-than-average 3-bed functional plan because of the office and WIP.
 - The larger 560m2 land helps resale/land value but is not a direct lifestyle positive for your low-maintenance preference.
-- If it can be bought below $800k, it is a strong value contender. If it pushes beyond $810k, the older shell/carport/yard burden starts to weaken the case.
+- If it can be bought below $800k, it is still a strong value contender. Around $810k, the older shell/carport/yard burden starts to weaken the case.
 
-## Legal / Section 32 Status
+## Age, Ownership And Renovation Read
 
-No contract or Section 32 has been reviewed yet.
+The exact build year is not stated in the listing or contract. The best evidence is circumstantial:
 
-Before offer/bidding, request and check:
+| Evidence | Read |
+|---|---|
+| Subdivision/title | Lot 354 on LP/PS216151Q; title created by instrument LP216151Q on 8 Jun 1989. |
+| Covenant | Covenant P718451A registered 23 Mar 1990 and appears to regulate new dwelling construction across the subdivision. |
+| Public sale history | Property.com.au / Realestate show sales in 1988, 1989 and 7 May 2002. |
+| Current owners | Contract title search shows Andrew and Maria Nicolaou as registered proprietors via AB506341X on 22 Aug 2002. |
+| Rental history | Public profiles show rental listings around 2010, 2012 and 2013, which suggests it may have been an investment/rental for part of the ownership period. |
 
-- Title, easements, drainage/sewer lines and exact land dimensions.
-- Permits/finals for carport, shed, bathroom/kitchen works and any structural alterations.
-- Electrical switchboard, plumbing age, roof/gutters, hot water, heating/cooling age and window condition.
-- Whether there are any overlays, covenants or restrictions affecting future works.
-- Whether the carport and driveway are fully compliant and within title boundaries.
-- Pest/building inspection with attention to older brick, subfloor/slab, damp and roof condition.
+Practical conclusion: treat the dwelling as likely **early-1990s estate stock**, about **34-37 years old**, unless the agent/vendor produces a building permit, occupancy certificate or council record proving otherwise. The current vendors have owned it since at least **22 Aug 2002 on title**, or about **23 years and 9 months** as at May 2026. Public sale history says it sold on **7 May 2002**, which puts economic ownership closer to **24 years**.
+
+There is no evidence in the Section 32 of permitted major building work in the last 7 years. Photos show a bright, sale-ready presentation, but that should be read as **cosmetic refresh/staging unless proven otherwise**. Likely recent work, if any, is more likely paint, flooring/styling, cleaning, garden presentation or minor fixture updates than a fully permitted structural renovation. Verify any kitchen/bathroom, carport, shed, roof, window or services upgrades with receipts, warranties, permits and B&P findings.
+
+Suitability/livability should be judged as a 1990s shell with useful modern presentation:
+
+- The layout is functionally good: real office, WIP, ensuite, main bathroom, separate WC and proper laundry.
+- The livability risk is hidden condition: roof/gutters, drainage, old plumbing/electrical, wet-area waterproofing, window/door condition, insulation, heating/cooling age and whether cosmetic updates are masking deferred maintenance.
+- If B&P is clean and services are modern, this could be very liveable immediately.
+- If B&P finds roof/drainage/wet-area/electrical issues, the effective price should be reduced because the current asking no longer leaves much renovation buffer.
+
+## Contract / Section 32 Review
+
+Contract reviewed from `assets/contract of sale.pdf` on 12 May 2026. This is not a conveyancer sign-off; treat it as issue triage before legal review.
+
+| Item | Contract read | Practical implication |
+|---|---|---|
+| Vendor / title | Andrew Nicolaou and Maria Nicolaou; Lot 354 on PS/LP216151Q; Volume 09882 Folio 810. | Title identity matches listing address. |
+| Mortgage | Registered CBA mortgage AB911981Y. | Normal, but conveyancer must ensure discharge at settlement. |
+| Covenant | Covenant P718451A registered 23 Mar 1990. | Main title watch-out. It restricts building/development and should be reviewed by conveyancer before relying on future works. |
+| Easement / plan | Plan notes drainage/sewerage easement notation; title also refers to encumbrances shown on plan. | Confirm exact easement position against carport, shed, drainage, and any future extension plans. |
+| Owners corporation | Vendor statement says not applicable. | Positive; no OC/body-corp issue identified. |
+| Building permits | Vendor statement says building permits in preceding 7 years: not applicable. | If kitchen/bathroom/carport/shed/structural works were done recently, permit/final-inspection evidence is not disclosed here. Building/pest and council permit search matter. |
+| Services | Electricity, gas, water and sewerage marked connected; telephone not marked connected. | Check NBN/telecom separately for WFH. |
+| Planning | GRZ5 and DCPO3. Public Acquisition Overlay appears nearby but not directly affecting this land in the planning property report. | Normal residential use, but DCPO3/council controls may affect future development. |
+| Bushfire | Not in designated bushfire prone area. | Positive. |
+| Land tax | Property clearance certificate shows 2026 current land tax charge of $1,950 tied to NICOLAOU INVESTMENT TRUST; contract special condition says land tax is not adjustable. | Confirm with conveyancer that no land tax is passed to you and obtain purchaser-side updated certificate if proceeding. |
+| GST withholding | Notice says existing residential premises; purchaser not required to withhold GST. | Positive, subject to conveyancer confirmation. |
+| Settlement terms | Price/deposit/settlement fields appear blank in the supplied contract template. | Ensure final contract fills purchase price, deposit, settlement, finance and B&P clauses exactly as intended. |
+
+### Contract Watch-Outs
+
+1. **Covenant P718451A is the largest legal/title watch-out.** The imaged covenant appears to restrict the property to one single dwelling, require a minimum dwelling floor area of about 130m2 excluding garage/carport/porch/patio/outbuildings/external areas, require certain external wall materials/brick-or-masonry content, prohibit flat roofs, and limit front/dividing fence style/height. This is not fatal for buying the existing home, but it limits rebuild/extension/facade/fence freedom.
+2. **Permits are not proven for the visible improvements.** The Section 32 says no building permits in the preceding 7 years. That does not prove older carport/shed/renovation works are compliant. Because the listing has a carport, shed and updated interiors, ask the agent/vendor for permit history and have building/pest inspect compliance risk.
+3. **The special conditions push condition risk onto the purchaser.** Several clauses say the purchaser buys after their own inspections, cannot rely on agent/vendor representations, accepts latent/patent defects, and cannot claim for building/regulation non-compliance or structures over services. Do not sign without B&P protection unless you are comfortable taking that risk.
+4. **Finance and building/pest protection are not automatic.** The particulars page says loan and B&P are not applicable at auction, while later special condition 26 modifies finance evidence requirements. If buying post-auction/private negotiation, have your conveyancer insert clean finance and B&P clauses rather than relying on the template.
+5. **Default costs are vendor-friendly.** Late settlement triggers 12% interest, $880 default notice/legal costs, a $220 rescheduling fee each time settlement is rebooked, and possible third-party/mortgagee fees. Only commit once finance timing is reliable.
+6. **Land tax certificate needs settlement handling.** The certificate shows $1,950 current land tax, but special condition 25 says land tax is not adjustable. This is probably manageable, but conveyancer should confirm no pass-through and order/verify updated purchaser certificates.
+7. **Telephone not connected in Section 32.** This does not mean no NBN, but for WFH it is a practical check: verify NBN technology/address status directly.
+
+Legal risk score: **5/10**. The property still looks legally workable, but only with conveyancer review of the covenant/easement, clean finance/B&P wording, and permit/compliance checks.
 
 ## Buyer-Specific Strengths
 
@@ -139,7 +183,7 @@ Before offer/bidding, request and check:
 3. Large living room and separate dining.
 4. Ensuite, main bathroom, separate WC and proper laundry.
 5. Mill Park location aligns better with the active northern-suburb strategy than Geelong.
-6. Price guide gives headroom if auction does not run away.
+6. No owners corporation and not bushfire prone per Section 32/planning report.
 
 ## Buyer-Specific Risks
 
@@ -148,7 +192,8 @@ Before offer/bidding, request and check:
 3. 560m2 block means real yard upkeep.
 4. Ensuite is useful but not spacious.
 5. Street/traffic feel must be checked in person.
-6. Auction may lift the result beyond the comfort/value zone.
+6. Covenant and permit/compliance questions now need conveyancer and B&P follow-up.
+7. Current asking evidence may sit above the price where these contract risks are worth accepting.
 
 ## Inspection Checklist
 
@@ -161,7 +206,8 @@ Before offer/bidding, request and check:
 - Inspect roof, gutters, brickwork, drainage, windows, doors, switchboard, hot water and split systems.
 - Listen for road noise from inside living, office and main bedroom.
 - Verify auction result if the 9 May auction has already occurred.
+- Send `contract of sale.pdf` to conveyancer with specific questions on covenant P718451A, easement position, land tax handling, finance/B&P clauses, and whether any carport/shed/renovation permits should be requested.
 
 ## Bottom Line
 
-77 Prince Of Wales is a strong price-aware Mill Park candidate because it directly solves two of your major criteria: a real work area and kitchen storage. It is not the most polished or lowest-maintenance property, but below $800k it deserves attention. Above low-$800s, the older shell, carport and yard burden make it less attractive than stronger-fit renovated/newer alternatives.
+77 Prince Of Wales is still a strong price-aware Mill Park candidate because it directly solves two major criteria: a real work area and kitchen storage. The contract does not reveal an owners-corporation or bushfire problem, but it does add real diligence items: covenant, easement position, permit/compliance risk, and purchaser-unfriendly special conditions. Inspect only if negotiation below or around $805k remains plausible and make any post-auction offer subject to conveyancer-approved finance/B&P wording.

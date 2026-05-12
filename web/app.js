@@ -746,7 +746,7 @@ function renderComparisons(properties, sortKey = "overall_fit_score") {
       return `
         <article class="property-card" id="${slugId(property.slug)}">
           <div class="property-image-wrap">
-            <img src="${imagePath}" alt="${escapeHtml(property.address)}" loading="lazy" />
+            <img src="${imagePath}" alt="${escapeHtml(property.address)}" loading="lazy" onerror="this.closest('.property-image-wrap').classList.add('image-missing'); this.remove();" />
             <span class="rank">#${index + 1}</span>
             <span class="overall-badge ${scoreClass(inPerson)}">${inPerson}/100</span>
             <span class="status-badge ${statusClass(property.status)}">${status}</span>
