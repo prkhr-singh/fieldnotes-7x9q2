@@ -106,12 +106,43 @@ const comparisonGrid = document.querySelector("#comparisonGrid");
 const comparisonSummary = document.querySelector("#comparisonSummary");
 const comparisonTableBody = document.querySelector("#comparisonTableBody");
 const sortButtons = document.querySelectorAll("[data-sort]");
+const comparisonViewButtons = document.querySelectorAll("[data-comparison-view]");
 const propertyNav = document.querySelector("#propertyNav");
 const criteriaGrid = document.querySelector("#criteriaGrid");
 const markdownReader = document.querySelector("#markdownReader");
 const workspaceTabs = document.querySelectorAll("[data-view]");
 const workspaceSections = document.querySelectorAll("[data-workspace]");
-const DATA_VERSION = "2026-05-09-two-props";
+const DATA_VERSION = "2026-05-13-sunday-shortlist";
+
+const SUNDAY_SHORTLIST_SLUGS = [
+  "36-littlewood-drive-fyansford",
+  "18-landes-avenue-highton",
+  "158-grantham-drive-highton",
+  "14-hardiman-circuit-fyansford",
+  "37-salisbury-circuit-fyansford",
+];
+
+const ARCHIVED_SLUGS = new Set([
+  "1-woodhill-place-mill-park",
+  "77-prince-of-wales-avenue-mill-park",
+  "11-northbridge-road-highton",
+  "20-northampton-crescent-caroline-springs",
+  "18-westwood-drive-mill-park",
+  "2a-macadam-street-daylesford",
+  "5-berala-place-mill-park",
+  "18-streeton-circuit-mill-park",
+  "2-hartley-court-mill-park",
+  "44-waurnvale-drive-belmont",
+  "23-arbour-grove-belmont",
+  "10-northbridge-road-highton",
+  "31-st-hellier-street-heidelberg-heights",
+  "1-buick-crescent-mill-park",
+  "21-tetila-avenue-grovedale",
+  "1-14-mary-street-hamlyn-heights",
+  "2-54-barrabool-road-highton",
+  "1-cardinal-close-mill-park",
+  "11-archer-place-mill-park",
+]);
 
 const sectionWorkspace = Object.fromEntries(
   [...workspaceSections].map((section) => [section.id, section.dataset.workspace]),
@@ -644,23 +675,62 @@ function floorplanAssetPath(property) {
     : `../property-comparisons/${property.slug}/assets/floorplan.jpg`;
 }
 
-function renderComparisonSummary(properties) {
+function isArchivedProperty(property) {
+  const status = String(property.status || "").toLowerCase();
+  return (
+    ARCHIVED_SLUGS.has(property.slug) ||
+    status.includes("archived") ||
+    status.includes("rejected") ||
+    status.includes("reject") ||
+    status.includes("sold") ||
+    status.includes("comp only") ||
+    status.includes("not pursuing")
+  );
+}
+
+function filterComparisons(properties, view) {
+  if (view === "shortlist") {
+    const bySlug = Object.fromEntries(properties.map((property) => [property.slug, property]));
+    return SUNDAY_SHORTLIST_SLUGS.map((slug) => bySlug[slug]).filter(Boolean);
+  }
+  if (view === "active") return properties.filter((property) => !isArchivedProperty(property));
+  if (view === "archive") return properties.filter(isArchivedProperty);
+  return properties;
+}
+
+function comparisonViewLabel(view) {
+  return {
+    shortlist: "Sunday shortlist",
+    active: "Active/watch",
+    archive: "Archive",
+    all: "All properties",
+  }[view] || "Properties";
+}
+
+function renderComparisonSummary(properties, view = "shortlist") {
   if (!properties.length) {
-    comparisonSummary.innerHTML = "";
+    comparisonSummary.innerHTML = `
+      <article>
+        <span>${comparisonViewLabel(view)}</span>
+        <strong>0</strong>
+        <small>No properties match this view.</small>
+      </article>
+    `;
     return;
   }
 
-  const primary = properties.find((property) =>
-    String(property.status || "").toLowerCase().includes("primary"),
-  );
+  const primary =
+    properties.find((property) => property.slug === "18-landes-avenue-highton") ||
+    properties.find((property) => String(property.status || "").toLowerCase().includes("favourite")) ||
+    properties.find((property) => String(property.status || "").toLowerCase().includes("primary"));
   const bestPersonal = [...properties].sort((a, b) => personalScore(b) - personalScore(a))[0];
   const marketComp = properties.find((property) =>
-    property.slug === "5-berala-place-mill-park",
+    property.slug === "158-grantham-drive-highton",
   ) || properties.find((property) =>
-    String(property.status || "").toLowerCase().includes("sold"),
+    String(property.status || "").toLowerCase().includes("comp"),
   );
   const bestValue = [...properties]
-    .filter((property) => !String(property.status || "").toLowerCase().includes("sold"))
+    .filter((property) => !isArchivedProperty(property))
     .sort(
       (a, b) =>
         numberValue(b.price_risk_score) * 10 +
@@ -671,12 +741,17 @@ function renderComparisonSummary(properties) {
 
   comparisonSummary.innerHTML = `
     <article>
-      <span>Primary target</span>
-      <strong>${primary ? primary.suburb : "None"}</strong>
-      <small>${primary ? primary.address : "No active target in the matrix"}</small>
+      <span>Current view</span>
+      <strong>${properties.length}</strong>
+      <small>${comparisonViewLabel(view)}</small>
     </article>
     <article>
-      <span>Best in-person score</span>
+      <span>Planning favourite</span>
+      <strong>${primary ? shortAddress(primary.address).split(",")[0] : "None"}</strong>
+      <small>${primary ? primary.status : "No current favourite in this view"}</small>
+    </article>
+    <article>
+      <span>Top fit score</span>
       <strong>${personalScore(bestPersonal)}/100</strong>
       <small>${bestPersonal.address}</small>
     </article>
@@ -691,14 +766,18 @@ function renderComparisonSummary(properties) {
       <small>${bestValue ? bestValue.address : "No active value candidate"}</small>
     </article>
     <article>
-      <span>Latest direct comp</span>
-      <strong>${marketComp ? formatRange(marketComp.likely_transaction_range) : "$997k"}</strong>
-      <small>${marketComp ? marketComp.address : "No sold comp in the matrix"}</small>
+      <span>Key comparison</span>
+      <strong>${marketComp ? shortAddress(marketComp.address).split(",")[0] : "N/A"}</strong>
+      <small>${marketComp ? marketComp.status : "No comparison property in this view"}</small>
     </article>
   `;
 }
 
 function comparisonSortValue(property, sortKey) {
+  if (sortKey === "inspection_order") {
+    const shortlistIndex = SUNDAY_SHORTLIST_SLUGS.indexOf(property.slug);
+    return shortlistIndex === -1 ? -999 : -shortlistIndex;
+  }
   if (sortKey === "overall_fit_score") return personalScore(property);
   return numberValue(property[sortKey]);
 }
@@ -721,7 +800,7 @@ function spaceMetric(label, value) {
   return value ? `<div><span>${label}</span><strong>${escapeHtml(value)}</strong></div>` : "";
 }
 
-function renderComparisons(properties, sortKey = "overall_fit_score") {
+function renderComparisons(properties, sortKey = "overall_fit_score", view = "shortlist") {
   const sorted = [...properties].sort(
     (a, b) => comparisonSortValue(b, sortKey) - comparisonSortValue(a, sortKey),
   );
@@ -744,10 +823,11 @@ function renderComparisons(properties, sortKey = "overall_fit_score") {
         : "";
 
       return `
-        <article class="property-card" id="${slugId(property.slug)}">
+        <article class="property-card ${isArchivedProperty(property) ? "archived-property" : ""}" id="${slugId(property.slug)}">
           <div class="property-image-wrap">
             <img src="${imagePath}" alt="${escapeHtml(property.address)}" loading="lazy" onerror="this.closest('.property-image-wrap').classList.add('image-missing'); this.remove();" />
             <span class="rank">#${index + 1}</span>
+            ${view === "shortlist" ? `<span class="shortlist-rank">Stop ${SUNDAY_SHORTLIST_SLUGS.indexOf(property.slug) + 1}</span>` : ""}
             <span class="overall-badge ${scoreClass(inPerson)}">${inPerson}/100</span>
             <span class="status-badge ${statusClass(property.status)}">${status}</span>
           </div>
@@ -897,6 +977,8 @@ function renderComparisons(properties, sortKey = "overall_fit_score") {
 async function loadComparisons() {
   let comparisons = fallbackComparisons;
   let spaces = fallbackSpace;
+  let currentSortKey = "inspection_order";
+  let currentComparisonView = "shortlist";
 
   try {
     const [comparisonResponse, spaceResponse] = await Promise.all([
@@ -915,15 +997,30 @@ async function loadComparisons() {
     space: spaceBySlug[property.slug],
   }));
 
-  renderPropertyNav(comparisons);
-  renderComparisonSummary(comparisons);
-  renderComparisons(comparisons);
+  function renderCurrentComparisonView() {
+    const visibleComparisons = filterComparisons(comparisons, currentComparisonView);
+    renderPropertyNav(visibleComparisons);
+    renderComparisonSummary(visibleComparisons, currentComparisonView);
+    renderComparisons(visibleComparisons, currentSortKey, currentComparisonView);
+  }
+
+  renderCurrentComparisonView();
+
+  comparisonViewButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      currentComparisonView = button.dataset.comparisonView || "shortlist";
+      comparisonViewButtons.forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+      renderCurrentComparisonView();
+    });
+  });
 
   sortButtons.forEach((button) => {
     button.addEventListener("click", () => {
       sortButtons.forEach((item) => item.classList.remove("active"));
       button.classList.add("active");
-      renderComparisons(comparisons, button.dataset.sort);
+      currentSortKey = button.dataset.sort || "overall_fit_score";
+      renderCurrentComparisonView();
     });
   });
 }

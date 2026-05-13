@@ -364,6 +364,13 @@ main {
   gap: 6px;
 }
 
+.control-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
 .segmented button {
   cursor: pointer;
 }
@@ -577,6 +584,7 @@ main {
 }
 
 .rank,
+.shortlist-rank,
 .overall-badge,
 .status-badge {
   position: absolute;
@@ -594,6 +602,12 @@ main {
   top: 12px;
   left: 12px;
   background: rgba(17, 24, 21, 0.78);
+}
+
+.shortlist-rank {
+  top: 54px;
+  left: 12px;
+  background: rgba(15, 107, 85, 0.92);
 }
 
 .overall-badge {
@@ -633,6 +647,10 @@ main {
 
 .status-badge.rejected {
   background: rgba(180, 83, 42, 0.92);
+}
+
+.archived-property {
+  opacity: 0.88;
 }
 
 .property-body {
@@ -1175,7 +1193,8 @@ footer a {
   .quick-grid,
   .metric-grid,
   .property-nav,
-  .comparison-summary {
+  .comparison-summary,
+  .inspection-brief {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1223,13 +1242,18 @@ footer a {
   .property-nav,
   .criteria-grid,
   .space-metrics,
-  .comparison-summary {
+  .comparison-summary,
+  .inspection-brief {
     grid-template-columns: 1fr;
   }
 
   .row-heading {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .control-stack {
+    align-items: flex-start;
   }
 
   footer {
@@ -1323,6 +1347,40 @@ footer a {
 
 .agenda-section .section-intro {
   max-width: 640px;
+}
+
+.inspection-brief {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0 10px;
+}
+
+.inspection-brief article {
+  min-height: 128px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.inspection-brief span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.inspection-brief strong {
+  display: block;
+  margin: 4px 0 6px;
+  font-size: 20px;
+}
+
+.inspection-brief small {
+  color: var(--muted);
 }
 
 .agenda-list {
@@ -1437,6 +1495,8 @@ footer a {
 .agenda-explore .agenda-time { background: #faf5ff; color: #6b21a8; }
 
 .agenda-inspect { border-left: 3px solid var(--accent); }
+.priority-stop { border-left-color: var(--accent-2); }
+.priority-stop .agenda-time { background: #fff7ed; color: var(--accent-2); }
 .agenda-display { border-left: 3px solid var(--accent-3); }
 .agenda-explore { border-left: 3px solid #9333ea; }
 
