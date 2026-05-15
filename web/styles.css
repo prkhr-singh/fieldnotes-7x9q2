@@ -1445,7 +1445,23 @@ footer a {
   text-transform: uppercase;
   letter-spacing: 0.02em;
   color: var(--muted) !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 6px !important;
+}
+
+.agenda-tldr {
+  font-size: 13px !important;
+  color: var(--ink) !important;
+  line-height: 1.55;
+  background: #f8fafc;
+  border-left: 2px solid var(--line);
+  padding: 7px 10px;
+  border-radius: 0 4px 4px 0;
+  margin: 0 0 10px !important;
+}
+
+.agenda-tldr strong {
+  color: var(--accent-2);
+  font-weight: 700;
 }
 
 .agenda-body details summary {
