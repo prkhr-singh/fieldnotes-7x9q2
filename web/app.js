@@ -111,7 +111,7 @@ const criteriaGrid = document.querySelector("#criteriaGrid");
 const markdownReader = document.querySelector("#markdownReader");
 const workspaceTabs = document.querySelectorAll("[data-view]");
 const workspaceSections = document.querySelectorAll("[data-workspace]");
-const DATA_VERSION = "2026-05-15-saturday-agenda";
+const DATA_VERSION = "2026-05-15-saturday-agenda-v2";
 const SATURDAY_AGENDA_SLUGS = [
   "18-landes-avenue-highton",
   "158-grantham-drive-highton",
@@ -119,7 +119,6 @@ const SATURDAY_AGENDA_SLUGS = [
   "2-ashford-court-belmont",
   "134-roslyn-road-belmont",
   "3-cambra-road-belmont",
-  "37-peter-street-grovedale",
   "37-salisbury-circuit-fyansford",
   "1-32-the-avenue-belmont",
   "43-waurnvale-drive-belmont",
@@ -133,7 +132,6 @@ const WEBP_ONLY_ASSET_SLUGS = new Set([
 ]);
 const NO_REPUBLISHED_MEDIA_SLUGS = new Set([
   "37-peter-street-grovedale",
-  "43-waurnvale-drive-belmont",
 ]);
 
 const sectionWorkspace = Object.fromEntries(

@@ -1,8 +1,8 @@
 # Property Comparison Record: 158 Grantham Drive, Highton VIC 3216
 
 **Status:** REJECT / WATCH ONLY IF TITLE ACCEPTABLE - strong layout on paper, but townhouse classification breaches the freestanding-house hard filter  
-**Assessment layer:** AI pre-visit hard-filter assessment from current listing/profile sources; no contract reviewed  
-**Prepared:** 12 May 2026  
+**Assessment layer:** AI pre-visit hard-filter assessment from current listing/profile sources, sale-history evidence and Saturday discussion context  
+**Prepared:** 15 May 2026  
 **Primary listing sources:** Domain current listing; Realestate current listing; Property.com.au profile and sale history  
 **Local assets:** No listing photos copied due GitHub Pages/copyright uncertainty.
 
@@ -56,6 +56,17 @@ Inspection checks: deck wind, western glazing heat, shading/eaves, privacy from 
 ## Previous Sale Lens
 
 The sale history shows a strong uplift from $245k in 2010 to $520k in 2015, then a 2026 campaign around the low-to-mid $800s depending on source. That is plausible for Highton, but the "townhouse" label means it should be compared against townhouses/units as well as houses. Property.com.au estimated value around $788k, which supports price discipline if the agent pushes above the current lower guide.
+
+## Saturday 16 May Inspection Context
+
+Discussion priority: this reopened the "no townhouse" rule because the 4-bedroom/study and retreat utility may be materially better than some freestanding 3-bedroom houses. The property should still be treated as a procedural reject unless title evidence clears the classification issue.
+
+Agent/vendor questions to ask:
+
+- Why is it being marketed/classified as a townhouse rather than a double-storey house?
+- Are there shared walls, shared driveway, shared services, common property, common insurance or owners-corporation obligations?
+- Can the agent provide the Section 32/title before you spend serious time on it?
+- What retaining-wall, drainage, deck/balcony, driveway or movement-crack issues are known?
 
 ## Comparable Set
 

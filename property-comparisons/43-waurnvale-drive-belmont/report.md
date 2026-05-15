@@ -1,15 +1,15 @@
 # Property Comparison Record: 43 Waurnvale Drive, Belmont VIC 3216
 
-**Status:** Saturday placeholder - confirm exact address/listing  
+**Status:** SATURDAY AGENDA - 2:00 confirmed private inspection  
 **Prepared:** 15 May 2026  
-**Primary sources:** Domain listing/profile for 43 Waurnvale Drive; public property-profile mirrors; user inspection note for a 2:00pm Belmont stop  
-**Local assets:** No local photos, floorplan, contact sheet or contract files captured yet
+**Primary sources:** Barry Plant sold listing for 43 Waurnvale Drive; current listing/profile mirrors; user confirmation of a 2:00pm Belmont private inspection  
+**Local assets:** `assets/photo-01.jpg` to `assets/photo-12.jpg` except photo 11, `assets/floorplan.jpg`, `assets/contact-sheet.jpg`, `assets/media-sources.json`
 
 ## Quick Verdict
 
-Treat this as a placeholder only. The user's note said "43 Warrenville Road, Belmont"; the closest current/listed match found in the local workflow is **43 Waurnvale Drive, Belmont**. Keep the 2:00pm stop in the agenda, but do not rely on the score until the exact listing URL and agent pack are confirmed.
+The address is now confirmed as **43 Waurnvale Drive, Belmont** for the 2:00pm stop. This is no longer just a placeholder: the 2022 Barry Plant sold listing gives a floorplan, photos and a hard sale anchor of **$780,000 on 9 May 2022**.
 
-Preliminary fit score is **62/100**. The rough value case is a 3-bed, 2-bath, 2-car Belmont house on about 641m2 with a likely guide around $840k-$890k. That is inside the FHBG cap, but the margin is not generous versus known Belmont older-shell risks and the 2022 sale anchor.
+Updated pre-visit fit score is **68/100**. The value case is a 3-bed, 2-bath, 2-car Belmont house on about 641m2 with a very large lounge/dining zone and long verandah. The weakness is WFH: there is no dedicated study, so one bedroom must become office. Current contract/Section 32 is still missing.
 
 ## Property Snapshot
 
@@ -19,38 +19,51 @@ Preliminary fit score is **62/100**. The rough value case is a 3-bed, 2-bath, 2-
 | Beds / baths / cars | 3 / 2 / 2 |
 | Land | About 641m2 |
 | Floor area | Public profile evidence around 139m2; broader building-size figures need checking |
-| Guide | Placeholder $840k-$890k until agent confirms |
-| Sale method | Private inspection/listing campaign to confirm |
-| Prior sale | Public profile evidence indicates a 2022 sale around $780k; confirm in CoreLogic/contract |
+| Guide | Current working range $795k-$870k until agent confirms |
+| Sale method | 2:00pm private inspection / current listing campaign |
+| Prior sale | Barry Plant sold listing shows $780,000 on 9 May 2022 |
+| Listing URL | https://www.barryplant.com.au/sold-properties/43-waurnvale-drive-belmont-vic-3216-124784/ |
 
 ## Space And Layout
 
-No local floorplan has been captured. The current space score is therefore provisional and should not be compared directly with 3 Cambra, 2 Ashford, 8 Northam or 37 Salisbury.
+The 2022 Barry Plant floorplan has been captured. It is stronger than the placeholder row suggested for living space, but still weaker for WFH because there is no dedicated study.
 
 | Area | Preliminary read |
 | --- | --- |
-| Master | Unknown dimensions |
-| Secondary bedrooms | Unknown dimensions |
-| Study/work | No dedicated study confirmed; likely one bedroom must become office |
-| Living | Unknown without floorplan |
-| Kitchen/storage | Unknown without floorplan |
-| Outdoor | Large established yard likely; maintenance load must be checked |
+| Master | 3.3 x 3.6m with WIR and ensuite. Usable but not large compared with 2 Ashford or 3 Cambra. |
+| Secondary bedrooms | 3.3 x 3.0m and 3.3 x 3.6m. Both usable; one likely becomes the office. |
+| Study/work | No dedicated study. This is the biggest household-fit compromise. |
+| Living | Lounge 5.3 x 8.4m plus dining 3.3 x 4.4m. Very strong daily living area. |
+| Kitchen/storage | Kitchen 3.3 x 3.2m with pantry marked. Storage looks functional but not WIP-level. |
+| Outdoor | Long verandah and established yard; maintenance load and drainage need checking. |
 
 ## Photo And Floorplan Read
 
-No photos or floorplan are republished locally. On inspection, capture full video and ask the agent for the floorplan before treating this as a comparable candidate.
+Photos and the 2022 floorplan are now republished locally from the Barry Plant sold listing. The floorplan makes this a better comparator than the earlier placeholder: it has a proper double garage, a large lounge/dining zone and three normal bedrooms. It does not solve the office problem. Inspect whether the living zone feels bright or dated, and whether the verandah/yard adds usable lifestyle value or just maintenance.
 
 ## Orientation And Light
 
-Orientation has not been assessed. Check living-area aspect, west-facing bedroom heat, outdoor shade, and whether the house feels dark compared with 8 Northam and 2 Ashford.
+The floorplan north arrow points roughly upward/right. The verandah runs along the left side of the plan, with living/dining opening toward that side. Treat light as a site check: verify whether the verandah shades the main living too much, whether bedrooms get useful light, and whether the home feels darker than 8 Northam or 2 Ashford.
 
 ## Previous Sale And Renovation Signals
 
-The rough public sale-history anchor is a 2022 transaction around $780k. If the current guide is mid/high-$800s, the key question is whether the property has meaningful improvements since 2022 or whether the premium is just market/agent pricing.
+Barry Plant sold the property for **$780,000 on 9 May 2022**. If the current guide is now low/mid/high-$800s, the key question is whether the premium is backed by genuine improvements since 2022 or just market/agent pricing. Ask the agent what changed after the 2022 sale and why the vendor is selling now.
+
+## Saturday 16 May Inspection Context
+
+Discussion priority: use this as the 2:00pm Belmont older-shell comparator after seeing Ashford, Roslyn and Cambra. It can be a value check against 44 Waurnvale and 8 Northam, but it should not beat Cambra/Ashford unless the condition, street feel and price are clearly better.
+
+Agent/vendor questions to ask:
+
+- What has changed since the $780k May 2022 sale?
+- Why is the vendor selling now?
+- Can the agent provide current Section 32/contract, permit history and any B&P/vendor disclosure?
+- Are roof, drainage, gutters, heating/cooling, hot water, switchboard, wet areas and verandah works updated or original?
+- Does the vendor have a firm price expectation for the 2:00pm private inspection?
 
 ## Price Lens
 
-Preliminary fair value: **$805k-$850k**. Likely transaction range if the guide is real: **$830k-$900k**. Do not chase above mid-$800s without clean building/pest evidence, a useful floorplan, and a clear reason it beats 2 Ashford or 8 Northam.
+Preliminary fair value: **$805k-$850k**. Likely transaction range if the guide is real: **$820k-$880k**. Do not chase above mid-$800s without clean building/pest evidence and a clear reason it beats 2 Ashford or 8 Northam.
 
 ## Comparable Set
 
@@ -72,17 +85,17 @@ Preliminary fair value: **$805k-$850k**. Likely transaction range if the guide i
 | Shared bathroom | 7 provisional |
 | Low maintenance | 6 |
 | Light/orientation | 7 provisional |
-| Legal/title risk | 4 |
-| Price risk | 4 |
+| Legal/title risk | 5 |
+| Price risk | 5 |
 
 ## Risks And Unknowns
 
-- Exact address and listing URL need confirmation; "Warrenville Road" did not resolve cleanly.
-- No Section 32/contract reviewed.
-- No local photos or floorplan captured.
+- Exact address is confirmed by user as 43 Waurnvale Drive.
+- No current Section 32/contract reviewed.
+- Photos/floorplan are from the 2022 Barry Plant sold listing; current condition may differ.
 - Need title/easements/permits, drainage, slope/retaining, roof/services/wet areas, heating/cooling age and any 2022-to-2026 renovation evidence.
 - Large established yard may be a maintenance burden rather than a benefit.
 
 ## Bottom Line
 
-Keep the 2:00pm stop in the route, but use it as a data-gathering inspection unless the exact listing is confirmed. The minimum useful outputs are: floorplan, Section 32, agent price guide, vendor story, and enough photos/video to compare against 2 Ashford, 8 Northam and 3 Cambra.
+Keep the 2:00pm stop in the route. The minimum useful outputs are: current Section 32/contract, agent price guide, vendor story since the 2022 sale, and enough photos/video to confirm current condition against the 2022 media.

@@ -1,8 +1,8 @@
 # Property Comparison Record: 18 Landes Avenue, Highton VIC 3216
 
 **Status:** WATCH - strong Highton compact house, but price is close to where no-study 3-bed compromises become hard to justify  
-**Assessment layer:** AI pre-visit assessment from current listing mirror and street/context sources; no contract reviewed  
-**Prepared:** 12 May 2026  
+**Assessment layer:** AI pre-visit assessment from current listing mirror, street/context sources, veranda/contract notes and Saturday discussion context  
+**Prepared:** 15 May 2026  
 **Primary listing sources:** RealSearch current listing mirror; Landes Avenue/Highton profile sources; local builder context for nearby sloping-site builds  
 **Local assets:** No listing photos copied due GitHub Pages/copyright uncertainty.
 
@@ -56,6 +56,17 @@ On inspection, prioritise:
 - Whether the main living and deck capture north/east light or mainly exposed west sun.
 - Whether windows use the outlook without overheating.
 - Whether the lower side of the site has drainage, retaining or access issues.
+
+## Saturday 16 May Inspection Context
+
+Discussion priority: this is a compact Highton 3-bed being inspected mainly because location, height, views and light may compensate for weaker raw utility. The main on-site issue is not the bedroom count alone; it is whether the stormwater/veranda drainage concern is clean enough to avoid repeating the kind of drainage/gate problem seen at the prior North Face/Northbridge inspection.
+
+Agent/vendor questions to ask:
+
+- Can they show the final veranda/deck approval/final certificate?
+- Where exactly is the stormwater connected, and was any in-ground service work included after the quote that excluded stormwater/in-ground services?
+- Any known water ingress, roof/gutter overflow, retaining-wall movement, cracking or insurance history?
+- What is the vendor story and ownership duration, given no reliable exact prior sale anchor has been captured?
 
 ## Previous Sale Lens
 

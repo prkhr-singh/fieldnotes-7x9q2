@@ -1,8 +1,8 @@
 # Property Comparison Record: 37 Salisbury Circuit, Fyansford VIC 3218
 
 **Status:** WATCH - strongest Fyansford floorplan if price holds  
-**Assessment layer:** AI pre-visit assessment from current and sold-history sources; no contract reviewed  
-**Prepared:** 12 May 2026  
+**Assessment layer:** AI pre-visit assessment from current/sold-history sources, contract notes and Saturday discussion context  
+**Prepared:** 15 May 2026  
 **Primary listing sources:** Realestate/property profile, realsearch/listing mirrors, public sold-history snippets  
 **Local assets:** No listing photos copied due GitHub Pages/copyright uncertainty.
 
@@ -56,6 +56,17 @@ Inspection priority: living/kitchen light with lights off, bedroom window size, 
 ## Previous Sale Lens
 
 The reported 2024 sale around $740k is useful. If the vendor is now seeking a meaningful premium only two years later, the house needs evidence of either market movement, upgrades, or exceptional presentation. The floorplan is stronger than first pass, but the low-to-mid $800s should still be treated as the discipline zone.
+
+## Saturday 16 May Inspection Context
+
+Discussion priority: this now replaces Grovedale if timing holds. Use it to understand Fyansford estate quality and whether a stronger four-bedroom plan offsets soil/drainage/retaining-wall uncertainty.
+
+Agent/vendor questions to ask:
+
+- Confirm the exact recent sale date/price and why the vendor is selling now.
+- Any known Fyansford flood, overland-flow, soil reactivity, site cut/fill, retaining-wall, drainage or slab-movement issues?
+- What estate controls or design guidelines still affect the property?
+- Does the pocket feel premium enough versus Highton/Belmont after the morning inspections?
 
 ## Comparable Set
 
