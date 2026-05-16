@@ -104,3 +104,26 @@ Offer discipline: investigate under $830k, consider up to mid-$840s only after s
 ## Bottom Line
 
 Shortlist for inspection if the guide stays disciplined. This is not the cleanest home, but the floorplan is meaningfully useful: real office, big master, multiple living zones and covered outdoor space. The buy case depends on B&P being boring and the price staying below the point where newer Highton/Fyansford stock becomes cleaner value.
+
+---
+
+## Land Value Decomposition — 15 May 2026
+
+| Component | Value |
+|---|---|
+| Land area | 728m² |
+| Guide midpoint | $874k (official guide $849–899, confirmed 16 May 2026) |
+| Floor area | 159m² ground (confirmed on floorplan) + ~35m² upper = ~194m² |
+| Build (1983 split-level, ~43 yrs) | 194 × $1,500 × 0.55 = $160k |
+| Improvements (covered alfresco 30m², verandah 17m², garage/carport, solar) | +$45k |
+| **Dwelling value** | **~$205k** |
+| **Implied land value** | **$669k** |
+| **Implied land rate** | **$919/m²** |
+| Armstrong Creek comparison | $983/m² (new vacant estate land, May 2026) |
+
+**Key insight:** $762/m² for 728m² in established Belmont is below what you'd pay for vacant land in Armstrong Creek greenfield estate ($983/m²). This is the land banking anomaly of the set — an established suburb block pricing below greenfield rates because the dwelling age suppresses buyer demand. Photos confirm the exterior is more impressive than expected: split-level design with cobblestone driveway, rock garden, solar panels, and a substantial upper-level master suite. If B&P is acceptable, this is the strongest land-value play in the set.
+
+**Value verdict:** Strongest land value play if the structure survives a B&P. The due diligence is not optional — it IS the decision.  
+**Renovation risk:** $50-80k (highest in set — roof, upper-level permits, wet areas, services)  
+**Effective total cost:** $860-890k  
+**Value ranking vs 16 May set:** 3 of 8 active properties (land play)

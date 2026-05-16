@@ -110,7 +110,7 @@ One couple: three visits, contract in hand, sorting finance. Agent framed a pote
 | Ownership history | Always owner-occupied; 3 years current owners |
 | On market since | January 2026 (~5 months) |
 | Previous asking | Above $900k; now reduced |
-| Current guide | ~$805k (land value estimate); agent's live guide to confirm |
+| Current guide | $849k–$899k (official — corrected from earlier $832k estimate) |
 | Competing interest | One couple — 3 visits, contract in hand, sorting finance |
 | Recommended inspector | Graham Boyett (agent recommendation; praised for plain-language reports) |
 | B&P | Not from vendor — commission independently |
@@ -124,3 +124,25 @@ One couple: three visits, contract in hand, sorting finance. Agent framed a pote
 - [ ] Clarify competing couple's timeline — are they finance-approved or still sorting? A clean pre-approved offer from this household may be superior on terms even at a similar price
 - [ ] Price ceiling: $780k maximum. If vendor will not move below $790k, reallocate attention to Grantham ($770k, stronger value case)
 - [ ] Request Section 32 / contract for review
+
+---
+
+## Repositioning Note — 16 May 2026 (after seeing 3 Cambra Road)
+
+After visiting 3 Cambra Road later in the same day, Ashford's position shifted from **day's emotional favourite** (transcript 1) to **comparison baseline / second option**.
+
+The direct comparison framing from the debrief:
+
+| Dimension | 2 Ashford Court | 3 Cambra Road |
+|---|---|---|
+| Guide | $849–899k | $870–940k |
+| Land | 728m² | 604m² |
+| Interior | Character but needs work | "Stunning" — premium renovation |
+| Move-in readiness | Lower — more near-term work | Highest of the day |
+| Exterior appeal | Strong character, cobblestone driveway | Good but smaller block |
+| Master bedroom | Strong impression | Strong but smaller yard |
+| Key risk | 1983 asbestos era, 5-month campaign | Owner-builder contract contradiction |
+
+**Revised position:** Ashford remains a viable fallback if Cambra's owner-builder permit issues cannot be resolved. At $849–899k official guide against Cambra's $870k floor, Ashford offers more land but requires more near-term renovation investment. If a buyer is willing to do the work, Ashford may be the better long-term land holding. For this household (move-in readiness is a priority), Cambra wins on the interior quality trade-off.
+
+**Revised price ceiling:** $830k maximum given the official guide uplift to $849–899k and the 5-month campaign history. Only pursue if Cambra is eliminated and B&P returns without major ACM findings.
