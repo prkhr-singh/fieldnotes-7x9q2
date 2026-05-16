@@ -133,7 +133,23 @@ Melbourne investor in the picture but unlikely to stretch far. Seller has a targ
 | Agent | Remy |
 | Agent follow-up | Will call Monday if no contact |
 
-## Open Actions
+## End-of-Day Debrief — 16 May 2026
+
+**Household split — not rejected.**
+
+**Ganga's position:** Drop it. Weak connection, concrete-heavy backyard with only a narrow planted strip, no real garden feel, exterior condition poor (clutter, upkeep). Does not like it.
+
+**Prakhar's position:** Still in consideration for price point and value. Guide $760–820k, agent Remy, decent room proportions and light, motivated owner looking to reinvest. Could be bought at a discount, then improved. At ~$770k for the best room sizes in the set (master 4.6×4.4m, living 4.4×8.8m), the value-per-square-metre case is real.
+
+**Where this leaves it:** Not rejected — but the emotional case is weak and the backyard is a genuine daily-life concern. The rational case (price, room sizes, cleared title, 2008 build) keeps it alive for Prakhar. Any offer would need to be well below guide (~$760k or below) to make the backyard and connection compromise worthwhile. A B&P and Section 32 review remain prerequisites.
+
+**Comparison note from debrief:** At the same general price, Grantham ($765–770k) is preferred over The Avenue by both buyers. If the choice is "low-$770s for Grantham vs low-$760s for The Avenue," Grantham wins on character and light. The Avenue's case rests on it transacting meaningfully below Grantham's price — roughly $750k or less.
+
+**Fyansford (Salisbury) was rated more appealing than The Avenue** in the same debrief — important calibration.
+
+---
+
+
 
 - [ ] Review Section 32 — confirm title structure (no OC, no easement over shared access, no common property)
 - [ ] Commission B&P — focus on concrete stumps (inspect for movement/cracking), under-house drainage, 2008-era wet area waterproofing, roof and gutters

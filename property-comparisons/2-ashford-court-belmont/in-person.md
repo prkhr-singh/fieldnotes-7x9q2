@@ -128,7 +128,21 @@ One couple: three visits, contract in hand, sorting finance. Agent framed a pote
 
 ---
 
-## Repositioning Note — 16 May 2026 (after seeing 3 Cambra Road)
+## End-of-Day Debrief — 16 May 2026
+
+**Losing momentum — conditional offer still possible.**
+
+The five-bedroom format (sunroom / alfresco, well-thought-out zones, strong natural light) was credited as genuine positives in the debrief. But the maintenance burden and the work required post-purchase are increasingly pushing it down the list relative to Cambra and Waurnvale.
+
+**Still alive as:** A conditional lower-price offer subject to building inspection. If Kristy (the agent) would accept something in the low $800s with a B&P clause, it remains worth testing. But it is not the primary pursuit and will not be chased above $820k.
+
+**Guide recalled in debrief:** Roughly $849–890 / $850–900 range — consistent with the corrected official guide $849–899.
+
+**Position in hierarchy:** Fourth — behind Cambra, Waurnvale, and Grantham. Only moves up if the top three all fail.
+
+---
+
+
 
 After visiting 3 Cambra Road later in the same day, Ashford's position shifted from **day's emotional favourite** (transcript 1) to **comparison baseline / second option**.
 

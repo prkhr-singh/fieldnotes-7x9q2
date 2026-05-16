@@ -136,7 +136,21 @@ Private inspection format — fewer competing buyers than open homes. No formal 
 | Renovation | Professional trades: kitchen, main bathroom, flooring, carpets, all split systems, repaint |
 | Prior sale | $780,000 (9 May 2022, Barry Plant) |
 
-## Open Actions
+## End-of-Day Debrief — 16 May 2026
+
+**Confirmed #2 choice after the full day.**
+
+Waurnvale won on exterior — street presence and outside appeal clearly stronger than Cambra. Interior lost to Cambra on finishes and coherence. Seller expectation confirmed at ~$870k (mid-to-upper guide preference).
+
+**Offer strategy:** Full-and-final deadline offer recommended — set a deadline to force a decision rather than leaving room for incremental counterbids. This protects against a drawn-out negotiation that lets competing buyers enter. $870k is the number the seller wants; whether that's justified needs the finance model and all-in cost comparison first.
+
+**"Worth stretching for" test:** $870k only makes sense if the all-in cost (purchase + B&P findings + any remediation) comes in clearly better than Cambra at $850k + permit resolution costs. Run the numbers before committing.
+
+**Position in hierarchy:** If Cambra is eliminated (owner-builder issues unresolvable or B&P fails), Waurnvale immediately becomes the primary and $870k with finance/B&P conditions is the offer.
+
+---
+
+
 
 - [ ] Review Section 32 — confirm title, any easements, covenants, or overlays; check permit history for renovation works (kitchen, bathroom, electrical for split systems)
 - [ ] Commission B&P — priority: pre-1987 asbestos in any unrennovated areas (garage lining, soffits, roof void, sub-floor), ensuite waterproofing (pre-2022 vintage), roof and gutters, concrete stumps/slab

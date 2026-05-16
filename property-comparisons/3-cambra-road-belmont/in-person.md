@@ -140,7 +140,23 @@ Active. Three groups have returned for second inspections out of approximately 2
 | Owner-builder report | Present in contract despite vendor marking it "not applicable" |
 | Building permits | Marked "not applicable" — contradicts defect report |
 
-## Offer Strategy Update — 16 May 2026 (afternoon debrief)
+## End-of-Day Debrief — 16 May 2026
+
+**Confirmed #1 choice after the full day.**
+
+Cambra won on interior — better finishes, more coherent space planning, garden opening at the back, stronger "grow into it" feeling versus Waurnvale. Competition risk is higher than Waurnvale (more buyer interest observed). This means the window to act is narrower.
+
+**Revised offer thinking:** ~$850k as the target entry point (down from the earlier $840–841k tactical framing — the debrief settled on $850 as the round number that makes sense before escalating). The Monday pre-approval + B&P plan holds. Owner-builder permit question must be resolved before any number goes to the agent.
+
+**Interior vs exterior comparison (settled):**
+- Cambra: interior clearly better
+- Waurnvale: exterior clearly better
+
+**Competition note:** Multiple return inspections (3 groups) + active interest means a slow or overly tactical offer risks losing this to another buyer. Once B&P and permit questions are satisfactory, move with intent.
+
+---
+
+
 
 Cambra Road has consolidated as the **day's leading desire** across both buyers. The offer strategy was discussed during the afternoon drive:
 

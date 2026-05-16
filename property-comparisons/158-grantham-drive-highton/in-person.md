@@ -106,7 +106,21 @@ One existing offer at $760k. Vendor is motivated (3 months, $160k price reductio
 | Comparable cited | Neighboring similar sold for $800k (agent reference) |
 | B&P | Not from vendor — commission independently |
 
-## Ranking Update — 16 May 2026 (afternoon debrief)
+## End-of-Day Debrief — 16 May 2026
+
+**Reinstated as fallback #1** — the value case is real and the debrief acknowledged it explicitly.
+
+Seller perceived as motivated to close at $765–770k. Light is good (confirmed in-person). Room count and layout are workable. Rough post-purchase spend estimated at ~$30,000 (unverified — needs scoping, but gives a working number).
+
+**Comparison framing from debrief:** At similar price points, Grantham is preferred over The Avenue (Remy). "Townhouse plus ~$100k investment versus buying the more finished house at ~$860k" — the buyers are comfortable with a Grantham + $30k path if the top two (Cambra, Waurnvale) don't transact.
+
+**What changed:** The "townhouse feel" friction from the afternoon is still there, but the evening debrief recalibrated it as a stylistic quirk, not a functional flaw. Light was specifically called out as good. The sensitive disclosure remains the one item that needs an explicit household decision.
+
+**Revised position:** Active fallback. If Cambra and Waurnvale both fail, Grantham at $765–770k with a B&P focused on retaining walls and structure is the move.
+
+---
+
+
 
 Grantham dropped in buyer preference during the afternoon comparison session.
 
