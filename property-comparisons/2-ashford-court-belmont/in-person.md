@@ -113,6 +113,7 @@ One couple: three visits, contract in hand, sorting finance. Agent framed a pote
 | Current guide | $849k–$899k (official — corrected from earlier $832k estimate) |
 | Competing interest | One couple — 3 visits, contract in hand, sorting finance |
 | Recommended inspector | Graham Boyett (agent recommendation; praised for plain-language reports) |
+| Agent | Kristy |
 | B&P | Not from vendor — commission independently |
 
 ## Open Actions

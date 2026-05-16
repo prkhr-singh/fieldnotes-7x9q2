@@ -130,6 +130,7 @@ Melbourne investor in the picture but unlikely to stretch far. Seller has a targ
 | Competing buyer | Melbourne investor — unlikely to stretch significantly |
 | Conditions | Finance and B&P welcome |
 | Section 32 | Received from agent on-site — review pending |
+| Agent | Remy |
 | Agent follow-up | Will call Monday if no contact |
 
 ## Open Actions

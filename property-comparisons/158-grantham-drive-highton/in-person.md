@@ -106,6 +106,20 @@ One existing offer at $760k. Vendor is motivated (3 months, $160k price reductio
 | Comparable cited | Neighboring similar sold for $800k (agent reference) |
 | B&P | Not from vendor — commission independently |
 
+## Ranking Update — 16 May 2026 (afternoon debrief)
+
+Grantham dropped in buyer preference during the afternoon comparison session.
+
+**The issue:** The Domain "townhouse" misclassification has created a lasting psychological framing. Even though the contract confirms own-title freestanding, the double-storey modern format — compact lot, no garden character, corporate-trust vendor aesthetic — registers as "townhouse feel" in the buyers' mental shortlist. When compared against Cambra (genuine character), Ashford (character + land), and Waurnvale (character + professional renovation), Grantham lacks the personality that has become a decisive filter.
+
+**Buyer language:** "Townhouse option started to feel weaker because it lacked character."
+
+**Combined friction:** Sensitive disclosure (previous occupant died, not in house) + townhouse feel + weaker character = Grantham is no longer in the top 3. It remains the best value-for-money on pure numbers ($770k vs council CIV $875k) but the emotional case has been overtaken by properties with more personality.
+
+**Revised position:** Active but falling. If Cambra, Ashford, and Waurnvale all fail on B&P or price, Grantham re-enters as the strongest rational fallback at $770–780k. Not a primary pursuit.
+
+---
+
 ## Open Actions
 
 - [ ] Household decision: is the sensitive disclosure a deal-breaker or irrelevant? Make this explicit before proceeding.
