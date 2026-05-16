@@ -140,7 +140,27 @@ Active. Three groups have returned for second inspections out of approximately 2
 | Owner-builder report | Present in contract despite vendor marking it "not applicable" |
 | Building permits | Marked "not applicable" — contradicts defect report |
 
-## Open Actions
+## Offer Strategy Update — 16 May 2026 (afternoon debrief)
+
+Cambra Road has consolidated as the **day's leading desire** across both buyers. The offer strategy was discussed during the afternoon drive:
+
+**Competing offer signal:** A figure of $840k was discussed as an incoming or existing offer on this property.
+
+**Tactical response:** $841k was floated as a possible counter — enough to signal active interest and marginally beat the competition without jumping to the $870k floor unnecessarily.
+
+**Reasoning:** Jumping straight to $870k risks triggering a price war and signals too much enthusiasm. Starting at $841k tests whether the competition responds. If they don't, the deal may be done closer to the $840–841k range. If they do respond, the incremental escalation gives more control.
+
+**Monday plan:**
+1. Final pre-approval confirmed Monday
+2. Building and pest inspection arranged immediately after
+3. Formal price review before making a time-bound offer
+4. A 24-hour style offer deadline was discussed as a possible negotiating tactic to create urgency without a prolonged back-and-forth
+
+**Budget comfort:** Stretching exists — $850k pre-approval is the cap — but the instinct is to test $840–841k first before committing to $870k. The owner-builder contract questions must be resolved before any offer regardless of price.
+
+---
+
+
 
 - [ ] Ask agent Ricky directly: "The contract marks owner-builder as not applicable, but there is an owner-builder defect report. Can you explain which works were done owner-builder and whether council permits were obtained for those works?"
 - [ ] Commission Graham Boyett for combined B&P + structural integrity + timber pest inspection. Priority: owner-builder works identification, roof void access (currently listed as zero access), asbestos survey if any ACM flagged, bathroom window glass compliance (AS 1288), kitchen ventilation duct path

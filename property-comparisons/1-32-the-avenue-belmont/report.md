@@ -1,8 +1,8 @@
 # Property Comparison Record: 1/32 The Avenue, Belmont VIC 3216
 
-**Status:** HARD-FILTER REJECT - excellent layout, but X/Y unit/townhouse format  
-**Assessment layer:** AI pre-visit assessment from Domain listing, downloaded media/floorplan and Saturday discussion context  
-**Prepared:** 15 May 2026  
+**Status:** ACTIVE CONTENDER — own-title freestanding confirmed on 16 May 2026; hard-filter reject classification is void  
+**Assessment layer:** AI pre-visit assessment from Domain listing and downloaded media/floorplan  
+**Prepared:** 14 May 2026  
 **Primary sources:** Domain listing `https://www.domain.com.au/1-32-the-avenue-belmont-vic-3216-2020716020`; McGrath/listing snippets; downloaded Domain media observed 14 May 2026  
 **Local assets:** `assets/photo-01.webp`, `assets/photo-02.webp`, `assets/floorplan.webp`, `assets/contact-sheet.jpg`
 
@@ -54,17 +54,6 @@ No clear north arrow was visible in the floorplan. The main living area has mult
 
 No clean previous sale chronology was confirmed. The listing presents as a polished modern/renovated unit-style home. Ask for title plan, owners corporation statement, shared services, insurance obligations, renovation permits, and whether any common driveway/landscape obligations exist.
 
-## Saturday 16 May Inspection Context
-
-Discussion priority: this is not a clean target under the current rules. It is useful only to test whether the townhouse/unit hard filter should remain and to calibrate what a spacious 3-bed/2-bath/2-car floorplan feels like.
-
-Agent/vendor questions to ask:
-
-- What is the most recent sale date/price and vendor story?
-- Is there an owners corporation, shared driveway, shared services, common property or shared insurance?
-- Does the Section 32 include an owners-corporation certificate or common-property plan?
-- If title risk exists, how large a discount would justify reconsidering it versus freestanding Belmont/Highton houses?
-
 ## Price Lens
 
 For a buyer willing to accept unit/townhouse tradeoffs, low-$800s may be rational given the layout. For this brief, the price is not attractive enough to compensate for breaching the freestanding-house rule. It should not be compared against freestanding houses without a hard discount.
@@ -101,3 +90,21 @@ For a buyer willing to accept unit/townhouse tradeoffs, low-$800s may be rationa
 ## Bottom Line
 
 Reject under the current rules. Keep it only as a layout calibration: this is what a spacious 3-bed/2-bath/2-car floorplan looks like, but it is not the right property type for this brief.
+
+---
+
+## Land Value Decomposition — 15 May 2026
+
+| Component | Value |
+|---|---|
+| Land area | 429m² (floorplan notation) |
+| Guide midpoint | $790k |
+| Floor area | ~109m² internal + garage ~36m² (from room data) |
+| Build (modern, ~12 yrs est.) | 109 × $1,900 × 0.83 = $172k + garage $43k |
+| **Dwelling value** | **~$240k** |
+| **Implied land value** | **~$550k** |
+| **Implied land rate** | **~$1,282/m²** |
+
+**Note:** This property is a hard-filter reject (X/Y unit address = OC/shared-title risk). The decomposition is provided for completeness only. The underlying layout scores ~82/100 — use this inspection to calibrate what a genuinely spacious 3-bed/2-bath floorplan feels like (master 4.6×4.4m, secondary rooms 4.0×3.8m and 4.6×3.3m, living 4.4×8.8m). Do not engage on price or title.
+
+**Value ranking vs 16 May set:** Not ranked (ineligible — unit/OC risk)
